@@ -40,7 +40,7 @@ canvasAPI.getSelf()
 Then run the `server.js` by typing `npm start` in terminal. If your server is currently running, you'll want to kill it using `Control + c`, then restart the server.
 
 You should receive response back that looks something like this:
-```JSON
+```js
 {
   id: 50,
   name: 'Justin Lee',
