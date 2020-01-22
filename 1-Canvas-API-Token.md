@@ -20,4 +20,12 @@
 1. Save `.env`.
 
 ## Create an API call to Canvas from within `server.js`
-1. To ensure that you are able to make API calls to Canvas,
+To ensure that you are able to make API calls to Canvas, let's create a call and print the result.
+
+Navigate to `server.js` in `backend` folder, and you'll see the following line:
+
+    ```js
+    const canvasAPI = require('node-canvas-api')
+    ```
+
+This line imports a Canvas API object that comes with a bunch of useful functions. The one we want to use is the simplest: `getSelf`.

@@ -4,7 +4,7 @@ This project contains the basic scaffold of the Student Dashboard application.
 ## Table of Contents
 1. [Getting Started](#getting-started)
 1. [Code Overview](#code-overview)
-1. [ToDos](#todos)
+1. [To Dos](#to-dos)
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for use with your own Canvas API tokens.
@@ -43,7 +43,7 @@ These instructions will get you a copy of the project up and running on your loc
 #### Frontend
 * `App.js` - The top-level React component that is responsible for fetching data and rendering child React components.
 
-## ToDos
+## To Dos
 1. [Create a Canvas API token and make calls to the Canvas API.](1-Canvas-API-Token.md)
 1. [Create API endpoints in backend.](2-API-Endpoints.md )
 1. [Make API calls from frontend to frontend.](3-Make-API-Calls.md)
