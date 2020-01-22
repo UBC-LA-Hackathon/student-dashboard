@@ -28,7 +28,7 @@ Navigate to `server.js` in `backend` folder, and you'll see the following line:
 const canvasAPI = require('node-canvas-api')
 ```
 
-This line imports a Canvas API object that comes with a bunch of useful functions. The one we want to use is the simplest: `getSelf`.
+This line imports a Canvas API object that comes with a [bunch of useful functions](https://github.com/ubccapico/node-canvas-api/tree/master/src). The one we want to use is the simplest: `getSelf`.
 
 So add the following line:
 
