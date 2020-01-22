@@ -22,6 +22,22 @@ These instructions will get you a copy of the project up and running on your loc
 1. `npm install`
 1. `npm start`
 
+## Code Overview
+### Dependencies
+#### Backend
+* [expressjs](https://expressjs.com/) - The server for building API endpoints, making calls to Canvas API, and reading/sending data.
+* [node-canvas-api](https://github.com/ubccapico/node-canvas-api) - Easy way to make calls to Canvas API using JavaScript.
+
+#### Frontend
+* [reactjs](https://reactjs.org/) - JavaScript library for building user interfaces
+
+### Application Structure
+#### Backend
+* `server.js` - The entry point into our backend code. It starts the express server and is responsible for handling requests the frontend makes,making requests to the Canvas API, and reading/sending data to the frontend.
+
+#### Frontend
+* `App.js` - The top-level React component that is responsible for fetching data and rendering child React components.
+
 ### ToDos
 1.
 1.
