@@ -24,8 +24,19 @@ To ensure that you are able to make API calls to Canvas, let's create a call and
 
 Navigate to `server.js` in `backend` folder, and you'll see the following line:
 
-    ```js
-    const canvasAPI = require('node-canvas-api')
-    ```
+```js
+const canvasAPI = require('node-canvas-api')
+```
 
 This line imports a Canvas API object that comes with a bunch of useful functions. The one we want to use is the simplest: `getSelf`.
+
+So add the following line:
+
+```js
+canvasAPI.getSelf()
+  .then(self => console.log(self))
+```
+
+Then run the `server.js` by typing `npm start` in terminal. If your server is currently running, you'll want to kill it using `Control + c`, then restart the server.
+
+You should receive a JSON object back with your name, Canvas ID, etc. **If you encounter an error, please ask for help!**
