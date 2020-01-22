@@ -1,6 +1,11 @@
 # Student Dashboard
 This project contains the basic scaffold of the Student Dashboard application.
 
+## Table of Contents
+1. [Getting Started](#getting-started)
+1. [Code Overview](#code-overview)
+1. [ToDos](#todos)
+
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for use with your own Canvas API tokens.
 
@@ -8,13 +13,13 @@ These instructions will get you a copy of the project up and running on your loc
 1. **Install [Node 12.0.0 or greater](https://nodejs.org)**.
 2. **Install [Git](https://git-scm.com/downloads)**.
 
-### Installation
+### Installation and starting application
 1. Open command prompt on Mac or command line on Windows.
 1. Clone this repo. `git clone https://github.com/UBC-LA-Hackathon/student-dashboard.git`
 
 #### Backend
 1. `cd backend`
-1. `npm install` (If you see `babel-node: command not found`, you've missed this step.)
+1. `npm install`
 1. `npm start`
 
 #### Frontend
@@ -38,9 +43,9 @@ These instructions will get you a copy of the project up and running on your loc
 #### Frontend
 * `App.js` - The top-level React component that is responsible for fetching data and rendering child React components.
 
-### ToDos
-1.
-1.
-1.
-1.
-1.
+## ToDos
+1. Create a Canvas API token and make calls to the Canvas API.
+1. Create API endpoints in backend.
+1. Make API calls from frontend to frontend.
+1. Create data visualization dashboard.
+1. Create more advanced data visualizations/tools.
