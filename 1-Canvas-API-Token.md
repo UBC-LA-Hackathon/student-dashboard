@@ -39,4 +39,18 @@ canvasAPI.getSelf()
 
 Then run the `server.js` by typing `npm start` in terminal. If your server is currently running, you'll want to kill it using `Control + c`, then restart the server.
 
-You should receive a JSON object back with your name, Canvas ID, etc. **If you encounter an error, please ask for help!**
+You should receive response back that looks something like this:
+```JSON
+{
+  id: 50,
+  name: 'Justin Lee',
+  created_at: '2017-07-12T10:38:49-07:00',
+  sortable_name: 'Lee, Justin',
+  short_name: 'Justin Lee',
+  avatar_url: 'https://ubc.instructure.com/images/messages/avatar-50.png',
+  locale: null,
+  effective_locale: 'en-CA',
+  permissions: { can_update_name: false, can_update_avatar: true }
+}
+```
+**If you encounter an error, please ask for help!**
