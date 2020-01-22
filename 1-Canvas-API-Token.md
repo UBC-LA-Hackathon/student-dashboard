@@ -54,3 +54,5 @@ You should receive response back that looks something like this:
 }
 ```
 **If you encounter an error, please ask for help!**
+
+Now you're ready to go to [Step 2: Create API endpoints in backend.](2-API-Endpoints.md)
