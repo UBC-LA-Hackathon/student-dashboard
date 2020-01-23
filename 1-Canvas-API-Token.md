@@ -1,3 +1,9 @@
+## Table of Contents
+1. [Generate your Canvas access token](#generate-your-Canvas-access-token)
+1. [Put your token into the backend server.js](#put-your-token-into-the-backend-server.js)
+1. [Create an API call to Canvas from within server.js](#create-an-API-call-to-Canvas-from-within-server.js)
+1. [Next step](#next-step)
+
 ## Generate your Canvas access token
 1. Log into Canvas at [canvas.ubc.ca](http://canvas.ubc.ca/). Click _Account_ in the left menu, and then click _Settings_.
 ![Setting](https://learninganalytics.ubc.ca/files/2019/05/Screen-Shot-2019-05-22-at-3.25.40-PM.png)
@@ -55,4 +61,5 @@ You should receive response back that looks something like this:
 ```
 **If you encounter an error, please ask for help!**
 
+## Next step
 Now you're ready to go to [Step 2: Create API endpoints in backend.](2-API-Endpoints.md)

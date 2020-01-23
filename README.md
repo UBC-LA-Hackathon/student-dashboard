@@ -1,5 +1,7 @@
 # Student Dashboard
-This project contains the basic scaffold of the Student Dashboard application.
+This project contains the basic backend and frontend components of the Student Dashboard application. By the end of the hackathon, you should have a working full-stack web application that displays your own Canvas data from the Canvas API.
+
+We will also provide other data sources that you are welcome to integrate to build more advanced tools and visualizations.
 
 ## Table of Contents
 1. [Getting Started](#getting-started)
