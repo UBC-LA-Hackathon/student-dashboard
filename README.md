@@ -1,12 +1,24 @@
 # Student Dashboard
-This project contains the basic backend and frontend components of the Student Dashboard application. By the end of the hackathon, you should have a working full-stack web application that displays your own Canvas data from the Canvas API.
+This project contains the basic backend and frontend components of the Student Dashboard application. By the end of the workshopathon, you should have a working full-stack web application that displays your own Canvas data from the Canvas API.
 
-We will also provide other data sources that you are welcome to integrate to build more advanced tools and visualizations.
+We will also provide other data sources that you are welcome to integrate to build [more advanced tools and visualizations](5-Create-Advanced-Data-Viz.md).
 
 ## Table of Contents
+1. [What You'll Learn](#what-youll-learn)
 1. [Getting Started](#getting-started)
 1. [Code Overview](#code-overview)
 1. [To Dos](#to-dos)
+
+## What You'll Learn
+By completing this workshopathon, you'll learn to:
+* use the Canvas API
+* explore the data that Canvas collects from you
+* write some JavaScript
+* learn the difference between the backend and frontend
+* clean data
+* build your own API endpoints
+* use React to build frontend components
+* build a modern web application
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for use with your own Canvas API tokens.
