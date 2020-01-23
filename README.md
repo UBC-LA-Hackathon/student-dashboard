@@ -1,17 +1,17 @@
-# Student Dashboard
+# Student Dashboard Workshopathon
 This project contains the basic backend and frontend components of the Student Dashboard application. By the end of this workshopathon, you should have a working full-stack web application that displays your own Canvas data using the Canvas API.
 
 We will also provide other data sources that you are welcome to integrate to build [more advanced tools and visualizations](5-Create-Advanced-Data-Viz.md).
 
 ## Table of Contents
-1. [What You'll Learn](#what-youll-learn)
-1. [Ask For Help](#ask-for-help)
-1. [Schedule](#schedule)
-1. [Getting Started](#getting-started)
-1. [Code Overview](#code-overview)
-1. [To Dos](#to-dos)
+1. [What You'll Learn](#📚-what-youll-learn)
+1. [Ask For Help](#🤔-ask-for-help)
+1. [Schedule](#📅-schedule)
+1. [Getting Started](#⚙️-getting-started)
+1. [Code Overview](#💾-code-overview)
+1. [To Dos](#✅-to-dos)
 
-## What You'll Learn
+## 📚 What You'll Learn
 By completing this workshopathon, you'll learn to:
 * use the Canvas API
 * explore the data that Canvas collects from you
@@ -22,14 +22,14 @@ By completing this workshopathon, you'll learn to:
 * use React to build frontend components
 * build a modern web application
 
-## Ask For Help
+## 🤔 Ask For Help
 We don't expect you to come into the workshopathon with any prior knowledge. You may never have coded before - that's okay! You're here to learn, and we're here to help.
 
 There are many volunteers here who are happy to answer any questions you have.
 
 And if you are already comfortable with some of the technology we're using, please help your neighbours!
 
-## Schedule
+## 📅 Schedule
 ### Friday, March 12
 * tbd
 
@@ -44,7 +44,7 @@ And if you are already comfortable with some of the technology we're using, plea
 * 4:30pm - Demos!
 * 5:30pm - End of Workshopathon.
 
-## Getting Started
+## ⚙️ Getting Started
 These instructions will get you a copy of the project up and running on your local machine for use with your own Canvas API tokens.
 
 ### Prerequisites
@@ -65,7 +65,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. `npm install`
 1. `npm start`
 
-## Code Overview
+## 💾 Code Overview
 ### Dependencies
 #### Backend
 * [expressjs](https://expressjs.com/) - The server for building API endpoints, making calls to Canvas API, and reading/sending data.
@@ -77,12 +77,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Application Structure
 #### Backend
-* `server.js` - The entry point into our backend code. It starts the express server and is responsible for handling requests the frontend makes,making requests to the Canvas API, and reading/sending data to the frontend.
+* `server.js` - The entry point into our backend code. It starts the express server and is responsible for handling requests the frontend makes, making requests to the Canvas API, and reading/sending data to the frontend.
 
 #### Frontend
 * `App.js` - The top-level React component that is responsible for fetching data and rendering child React components.
 
-## To Dos
+## ✅ To Dos
 1. [Create a Canvas API token and make calls to the Canvas API.](1-Canvas-API-Token.md)
 1. [Create API endpoints in backend.](2-API-Endpoints.md )
 1. [Make API calls from frontend to frontend.](3-Make-API-Calls.md)
