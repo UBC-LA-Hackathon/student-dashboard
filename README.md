@@ -87,7 +87,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## ✅ Tasks
 1. [Create a Canvas API token and make calls to the Canvas API.](1-Canvas-API-Token.md)
-1. [Create API endpoints in backend.](2-API-Endpoints.md )
+1. [Create API endpoints in backend.](2-API-Endpoints.md)
 1. [Make API calls from frontend to frontend.](3-Make-API-Calls.md)
 1. [Create data visualization dashboard.](4-Create-Data-Viz-Dashboard.md)
 1. [Create more advanced data visualizations/tools.](5-Create-Advanced-Data-Viz.md)

@@ -34,11 +34,13 @@ It's actually quite similar to the previous endpoint we examined. We'll need to 
 app.get('/getSelf', (req, res) => {
   // we need to now make a call to the Canvas API and send the result to the frontend
   canvasAPI.getSelf()
-    .then(self => res.send(self))
+    .then(self => res.json(self))
 })
 ```
 
 Now, when the `/getSelf` endpoint is hit by navigating to http://localhost:4001/getSelf, the server knows to make a request to the Canvas API for information about the user, and once the information arrives, sends it to the frontend. You should see information about yourself when you navigate to http://localhost:4001/getSelf.
+
+Notice that instead of using `res.send`, we're using `res.json`. Instead of sending text, we're instead sending the data back in [JSON](https://en.wikipedia.org/wiki/JSON) format that Canvas api returns to the frontend.
 
 ## Let's create your own endpoint
 Okay, now it's your turn to create your own endpoint.
