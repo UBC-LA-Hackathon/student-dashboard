@@ -54,6 +54,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installation and starting application
 1. Open command prompt on Mac or command line on Windows.
 1. Clone this repo. `git clone https://github.com/UBC-LA-Hackathon/student-dashboard.git`
+1. Navigate into repo. `cd student-dashboard`.
 
 #### Backend
 1. `cd backend`
@@ -89,4 +90,4 @@ These instructions will get you a copy of the project up and running on your loc
 1. [Make API calls from frontend to frontend.](3-Make-API-Calls.md)
 1. [Create data visualization dashboard.](4-Create-Data-Viz-Dashboard.md)
 1. [Create more advanced data visualizations/tools.](5-Create-Advanced-Data-Viz.md)
-1. [Share your work](6-Share-Your-Work.md)
+1. [Share your work.](6-Share-Your-Work.md)

@@ -3,7 +3,6 @@
 1. [Next step](#next-step)
 
 ## Create visualizatins from data
-=
 
 ## Next step
 How much time do you have left?
