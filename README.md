@@ -6,6 +6,7 @@ We will also provide other data sources that you are welcome to integrate to bui
 ## Table of Contents
 1. [What You'll Learn](#what-youll-learn)
 1. [Ask For Help](#ask-for-help)
+1. [Schedule](#schedule)
 1. [Getting Started](#getting-started)
 1. [Code Overview](#code-overview)
 1. [To Dos](#to-dos)
@@ -26,7 +27,22 @@ We don't expect you to come into the workshopathon with any prior knowledge. You
 
 There are many volunteers here who are happy to answer any questions you have.
 
-And f you are already comfortable with some of the technology we're using, please help your neighbours!
+And if you are already comfortable with some of the technology we're using, please help your neighbours!
+
+## Schedule
+### Friday, March 12
+* tbd
+
+### Saturday, March 13
+* 9:30am - Doors Open (coffee and pastries).
+* 10:00am - Introductions and Welcome to the Workshopathon! We'll give you an overview of the tasks and get you set up with this repository.
+* 10:30am - Icebreaker (get to know your neighbours).
+* 11:00am - Start coding!
+* 12:30pm - Lunch.
+* 1:00pm - Check-in.
+* 3:00pm - Check-in.
+* 4:30pm - Demos!
+* 5:30pm - End of Workshopathon.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for use with your own Canvas API tokens.
