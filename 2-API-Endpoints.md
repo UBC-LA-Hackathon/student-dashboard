@@ -5,9 +5,7 @@
 1. [Next step](#next-step)
 
 ## Anatomy of an endpoint
-We need to create some API endpoints in the backend that the frontend can use to get data.
-
-To do this, we first need to understand how the `Hello World!` message is being sent from the backend to the frontend.
+We need to create some API endpoints in the backend that the frontend can use to get data. To do this, we first need to understand how the `Hello World!` message is being sent from the backend to the frontend.
 
 In `server.js`, you'll see the following line:
 ```js

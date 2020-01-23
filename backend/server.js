@@ -1,7 +1,10 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
 const port = 4001
 const canvasAPI = require('node-canvas-api')
+
+app.use(cors())
 
 // Step 1.1: Make API call to Canvas API here
 
