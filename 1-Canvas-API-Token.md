@@ -25,6 +25,8 @@
 1. Paste your token into the `CANVAS_API_TOKEN=` field.
 1. Save `.env`.
 
+## Start the server
+
 ## Create an API call to Canvas from within `server.js`
 _Not sure what an API (application programming interface) is? [Here's a guide.](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)_
 

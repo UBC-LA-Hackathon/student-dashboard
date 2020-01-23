@@ -5,6 +5,6 @@ const canvasAPI = require('node-canvas-api')
 
 // Step 1.1: Make API call to Canvas API here
 
-// Step 1.2: Create
+app.get('/', (req, res) => res.send('Hello World!'))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

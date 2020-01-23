@@ -9,7 +9,7 @@ We will also provide other data sources that you are welcome to integrate to bui
 1. [Schedule](#-schedule)
 1. [Getting Started](#-getting-started)
 1. [Code Overview](#-code-overview)
-1. [To Dos](#-to-dos)
+1. [Tasks](#-tasks)
 
 ## 📚 What You'll Learn
 By completing this workshopathon, you'll learn to:
@@ -83,7 +83,7 @@ These instructions will get you a copy of the project up and running on your loc
 #### Frontend
 * `App.js` - The top-level React component that is responsible for fetching data and rendering child React components.
 
-## ✅ To Dos
+## ✅ Tasks
 1. [Create a Canvas API token and make calls to the Canvas API.](1-Canvas-API-Token.md)
 1. [Create API endpoints in backend.](2-API-Endpoints.md )
 1. [Make API calls from frontend to frontend.](3-Make-API-Calls.md)
