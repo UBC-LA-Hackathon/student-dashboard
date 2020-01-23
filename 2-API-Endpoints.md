@@ -6,4 +6,4 @@
 We need to create some API endpoints in the backend that the frontend can use to request the data required.
 
 ## Next step
-Now you're ready to go to [Make API calls from frontend to frontend.](3-Make-API-Calls.md)
+Now you're ready to go to [Step 3: Make API calls from frontend to frontend.](3-Make-API-Calls.md)

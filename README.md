@@ -68,6 +68,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## 💾 Code Overview
 ### Dependencies
 #### Backend
+* [nodejs](https://nodejs.org/en/) - JavaScript runtime.
 * [expressjs](https://expressjs.com/) - The server for building API endpoints, making calls to Canvas API, and reading/sending data.
 * [node-canvas-api](https://github.com/ubccapico/node-canvas-api) - Easy way to make calls to Canvas API using JavaScript.
 
@@ -88,3 +89,4 @@ These instructions will get you a copy of the project up and running on your loc
 1. [Make API calls from frontend to frontend.](3-Make-API-Calls.md)
 1. [Create data visualization dashboard.](4-Create-Data-Viz-Dashboard.md)
 1. [Create more advanced data visualizations/tools.](5-Create-Advanced-Data-Viz.md)
+1. [Share your work](6-Share-Your-Work.md)
