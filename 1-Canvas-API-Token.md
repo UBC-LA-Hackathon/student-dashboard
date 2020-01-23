@@ -26,6 +26,8 @@
 1. Save `.env`.
 
 ## Create an API call to Canvas from within `server.js`
+_Not sure what an API (application programming interface) is? [Here's a guide.](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)_
+
 To ensure that you are able to make API calls to Canvas, let's create a call and print the result.
 
 Navigate to `server.js` in `backend` folder, and you'll see the following line:
