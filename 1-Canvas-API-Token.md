@@ -61,7 +61,7 @@ You should receive response back that looks something like this:
   permissions: { can_update_name: false, can_update_avatar: true }
 }
 ```
-**If you encounter an error, please ask for help!**
+**If you encounter an error, [please ask for help!](https://github.com/UBC-LA-Hackathon/student-dashboard#-ask-for-help)**
 
 ## Next step
 Now you're ready to go to [Step 2: Create API endpoints in backend.](2-API-Endpoints.md)
