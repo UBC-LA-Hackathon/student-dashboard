@@ -1,8 +1,11 @@
 ## Table of Contents
-1. [Create visualizations from data](#create-visualizations-from-data)
+1. [You have data, now what?](#you-have-data-now-what)
 1. [Next step](#next-step)
 
-## Create visualizatins from data
+## You have data, now what?
+In [Step 3](3-Make-API-Calls.md) you fetched data from an endpoint you created and displayed it on the screen. The next step is to make this data more useful by turning it into a data visualization.
+
+
 
 ## Next step
 How much time do you have left?
