@@ -83,7 +83,7 @@ These instructions will get you a copy of the project up and running on your loc
 * `server.js` - The entry point into our backend code. It starts the express server and is responsible for handling requests the frontend makes, making requests to the Canvas API, and reading/sending data to the frontend.
 
 #### Frontend
-* `App.js` - The top-level React component that is responsible for fetching data and rendering child React components.
+* `App.js` - The top-level React component that is responsible for fetching data and rendering child React components that you will build.
 
 ## ✅ Tasks
 1. [Create a Canvas API token and make calls to the Canvas API.](1-Canvas-API-Token.md)
