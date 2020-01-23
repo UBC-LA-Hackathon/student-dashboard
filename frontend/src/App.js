@@ -4,6 +4,8 @@ import './App.css'
 function App () {
   const [self, setSelf] = useState(undefined)
 
+  // add useEffect here
+
   return (
     <div className='App'>
       <p>Welcome to the Workshopathon, {self ? self.name : 'attendee'}!</p>
