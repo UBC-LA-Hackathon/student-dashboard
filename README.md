@@ -4,12 +4,12 @@ This project contains the basic backend and frontend components of the Student D
 We will also provide other data sources that you are welcome to integrate to build [more advanced tools and visualizations](5-Create-Advanced-Data-Viz.md).
 
 ## Table of Contents
-1. [What You'll Learn](#📚-what-youll-learn)
-1. [Ask For Help](#🤔-ask-for-help)
-1. [Schedule](#📅-schedule)
-1. [Getting Started](#⚙️-getting-started)
-1. [Code Overview](#💾-code-overview)
-1. [To Dos](#✅-to-dos)
+1. [What You'll Learn](#-what-youll-learn)
+1. [Ask For Help](#-ask-for-help)
+1. [Schedule](#-schedule)
+1. [Getting Started](#-getting-started)
+1. [Code Overview](#-code-overview)
+1. [To Dos](#-to-dos)
 
 ## 📚 What You'll Learn
 By completing this workshopathon, you'll learn to:
