@@ -1,10 +1,11 @@
 # Student Dashboard
-This project contains the basic backend and frontend components of the Student Dashboard application. By the end of the workshopathon, you should have a working full-stack web application that displays your own Canvas data from the Canvas API.
+This project contains the basic backend and frontend components of the Student Dashboard application. By the end of this workshopathon, you should have a working full-stack web application that displays your own Canvas data using the Canvas API.
 
 We will also provide other data sources that you are welcome to integrate to build [more advanced tools and visualizations](5-Create-Advanced-Data-Viz.md).
 
 ## Table of Contents
 1. [What You'll Learn](#what-youll-learn)
+1. [Ask For Help](#ask-for-help)
 1. [Getting Started](#getting-started)
 1. [Code Overview](#code-overview)
 1. [To Dos](#to-dos)
@@ -19,6 +20,13 @@ By completing this workshopathon, you'll learn to:
 * build your own API endpoints
 * use React to build frontend components
 * build a modern web application
+
+## Ask For Help
+We don't expect you to come into the workshopathon with any prior knowledge. You may never have coded before - that's okay! You're here to learn, and we're here to help.
+
+There are many volunteers here who are happy to answer any questions you have.
+
+And f you are already comfortable with some of the technology we're using, please help your neighbours!
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for use with your own Canvas API tokens.
@@ -49,6 +57,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 #### Frontend
 * [reactjs](https://reactjs.org/) - JavaScript library for building user interfaces
+* [Victory](https://formidable.com/open-source/victory/) - React components for easily building data visualizations
 
 ### Application Structure
 #### Backend
