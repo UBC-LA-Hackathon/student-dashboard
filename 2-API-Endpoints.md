@@ -40,7 +40,7 @@ app.get('/getSelf', (req, res) => {
 })
 ```
 
-Now, when the `/getSelf` endpoint is hit by navigating to http://localhost:4001/getSelf, the server knows to make a request to the Canvas API for information about the user, and once the information arrives, sends it to the frontend.
+Now, when the `/getSelf` endpoint is hit by navigating to http://localhost:4001/getSelf, the server knows to make a request to the Canvas API for information about the user, and once the information arrives, sends it to the frontend. You should see information about yourself when you navigate to http://localhost:4001/getSelf.
 
 ## Let's create your own endpoint
 Okay, now it's your turn to create your own endpoint.
@@ -48,4 +48,4 @@ Okay, now it's your turn to create your own endpoint.
 TODO. Depends on what data students need to build whatever we want them to build.
 
 ## Next step
-Now you're ready to go to [Step 3: Make API calls from frontend to frontend.](3-Make-API-Calls.md)
+Now you're ready to go to [Step 3: Make API calls from frontend to backend.](3-Make-API-Calls.md)
