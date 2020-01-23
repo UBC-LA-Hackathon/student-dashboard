@@ -1,6 +1,7 @@
 ## Table of Contents
 1. [Generate your Canvas access token](#generate-your-Canvas-access-token)
 1. [Put your token into the backend server.js](#put-your-token-into-the-backend-server.js)
+1. [Start the server](#start-the-server)
 1. [Create an API call to Canvas from within server.js](#create-an-API-call-to-Canvas-from-within-server.js)
 1. [Next step](#next-step)
 
@@ -26,6 +27,10 @@
 1. Save `.env`.
 
 ## Start the server
+1. Type `npm start` into terminal.
+1. Navigate to http://localhost:4001/.
+
+You should see a `Hello World!` displayed.
 
 ## Create an API call to Canvas from within `server.js`
 _Not sure what an API (application programming interface) is? [Here's a guide.](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)_
@@ -47,7 +52,7 @@ canvasAPI.getSelf()
   .then(self => console.log(self))
 ```
 
-Then run the `server.js` by typing `npm start` in terminal. If your server is currently running, you'll want to kill it using `Control + c`, then restart the server.
+Once you save the file, the server will automatically restart.
 
 You should receive response back that looks something like this:
 ```js
