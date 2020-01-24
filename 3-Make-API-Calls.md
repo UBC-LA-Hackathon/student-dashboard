@@ -39,7 +39,7 @@ useEffect(() => {
     .then(data => setSelf(data))
 }, [])
 ```
-There's a bit to unpack here. `useEffect` takes two inputs here.
+There's a bit to unpack here. `useEffect` takes two inputs.
 
 The first input is our "effect" function, which is where the data fetching and setting of the `self` variable with data from the `getSelf` endpoint happens.
 
