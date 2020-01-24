@@ -45,7 +45,7 @@ The first input is our "effect" function, which is where the data fetching and s
 
 The second parameter is `[]`, an empty array - this just tells React to only perform this data fetching _once_, on first page load.
 
-React is clever and will take care of displaying our name once the `self` is set. Save, and you should see `Welcome to the Workshopathon, {Your name from Canvas here}!`.
+React is clever and will take care of displaying our name once the `self` is set. Save `App.js`, and you should see `Welcome to the Workshopathon, {Your name from Canvas here}!`.
 
 ## Create your own API call
 Now that you've learned how to make a basic API call using React and `fetch`, try making a call to the endpoint you created in the previous step and displaying some of that data.
