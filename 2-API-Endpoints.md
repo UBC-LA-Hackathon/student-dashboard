@@ -22,7 +22,7 @@ So in summary, when you navigate to http://localhost:4001/, the server will dete
 ## Let's create a simple endpoint
 Since in [Step 1](1-Canvas-API-Token.md) we already set up a Canvas API call, let's set up an endpoint that will take the result of the `getSelf` call and send it to the frontend.
 
-We'll specify the path (which is the first input to `app.get()`), as `/getSelf`. The tricky part is to think about what should happen in the second input.
+We'll specify the path, which is the first input to `app.get()`, as `/getSelf`. The tricky part is to think about what should happen in the second input.
 
 ```js
 app.get('/getSelf', /* what goes in here? */)
