@@ -14,7 +14,7 @@ Open up `App.js`, and you'll see these lines:
 function App () {
   const [self, setSelf] = useState(undefined)
 
-  // add useEffect here
+  // Add useEffect here
 
   return (
     <div className='App'>
