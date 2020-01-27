@@ -7,5 +7,5 @@ Sharing your work is completely optional.
 
 TODO: Best way for students to share?
 
-## Next Step
+## Next step
 Now you're ready to go to [Step 7: Feedback and Thanks.](7-Feedback-And-Thanks.md)

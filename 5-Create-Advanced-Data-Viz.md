@@ -19,5 +19,5 @@ Okay.
 
 TODO: Add ideas here
 
-## Next Step
+## Next step
 Now you're ready to go to [Step 6: Share Your Work.](6-Share-Your-Work.md)
