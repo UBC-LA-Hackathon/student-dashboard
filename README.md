@@ -51,7 +51,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 1. **Install [Node 12.0.0 or greater](https://nodejs.org)**.
 2. **Install [Git](https://git-scm.com/downloads)**.
-2. **Install [Visual Studio Code](https://code.visualstudio.com/)** (optional but recommended)
+2. **Install [Visual Studio Code](https://code.visualstudio.com/)** (optional but recommended).
 
 ### Installation and starting application
 1. Open terminal on Mac or command line on Windows. I like to use [VSCode's integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal), as it works for both Mac and PC.
@@ -100,3 +100,6 @@ These instructions will get you a copy of the project up and running on your loc
 This hackathon is a collaborative effort by the [UBC Learning Analytics](https://learninganalytics.ubc.ca/) project, [LAVA](https://blogs.ubc.ca/lava/) (Learning Analytics, Visual Analytics), and [Sauder Learning Services](https://www.sauder.ubc.ca/about-ubc-sauder/learning-services), with staff volunteers from [Faculty of Arts](https://www.arts.ubc.ca/), [Faculty of Education](https://educ.ubc.ca/), [Sauder School of Business](https://www.sauder.ubc.ca/), and the [Centre for Teaching, Learning and Technology](https://ctlt.ubc.ca/).
 
 A big thank you to [Sauder Learning Labs](https://www.sauder.ubc.ca/about-ubc-sauder/learning-services/learning-labs) for providing a space designed to facilitate teams in using critical thinking and analytical decision making to solve real-world problems.
+
+And another big thank you to our volunteers from outside of UBC.
+TODO: Add list of volunteers
