@@ -92,3 +92,4 @@ These instructions will get you a copy of the project up and running on your loc
 1. [Create data visualization dashboard](4-Create-Data-Viz-Dashboard.md)
 1. [Create more advanced data visualizations/tools](5-Create-Advanced-Data-Viz.md)
 1. [Share your work](6-Share-Your-Work.md)
+1. [Feedback and thanks](7-Feedback-And-Thanks.md)
