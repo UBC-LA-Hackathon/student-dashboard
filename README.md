@@ -28,7 +28,7 @@ We don't expect you to come into the workshopathon with any prior knowledge. You
 
 There are many volunteers here who are happy to answer any questions you have.
 
-And if you are already comfortable with some of the technology we're using, please help your neighbours!
+And if you're already comfortable with some of the technology we're using, please help your neighbours!
 
 ## 📅 Schedule
 ### Friday, March 12

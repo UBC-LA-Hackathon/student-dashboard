@@ -17,7 +17,7 @@ The first input specifies the API endpoint path. In this case, the path is `/`, 
 
 The second input is more interesting, as it is a [callback function](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function) that takes two inputs, `req` and `res`, which are shorthand for `request` and `response`. We'll deal with `req` later. `res` is the response that we want to send to the frontend - in this case, we're sending `Hello World!`.
 
-So in summary, when you navigate to http://localhost:4001/, the server will determine that the endpoint requested is `/`, and respond with the `Hello World!` message.
+So, in summary, when you navigate to http://localhost:4001/, the server will determine that the endpoint requested is `/`, and respond with the `Hello World!` message.
 
 ## Let's create a simple endpoint
 Since in [Step 1](1-Canvas-API-Token.md) we already set up a Canvas API call, let's set up an endpoint that will take the result of the `getSelf` call and send it to the frontend.
