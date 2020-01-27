@@ -45,7 +45,7 @@ Notice that instead of using `res.send`, we're using `res.json`. Instead of send
 ## Let's create your own endpoint
 Okay, now it's your turn to create your own endpoint.
 
-TODO. Depends on what data students need to build whatever we want them to build.
+TODO: Depends on what data students need to build whatever we want them to build.
 
 ## Next step
 Now you're ready to go to [Step 3: Make API calls from frontend to backend.](3-Make-API-Calls.md)

@@ -75,8 +75,8 @@ These instructions will get you a copy of the project up and running on your loc
 * [node-canvas-api](https://github.com/ubccapico/node-canvas-api) - Easy way to make calls to Canvas API using JavaScript.
 
 #### Frontend
-* [reactjs](https://reactjs.org/) - JavaScript library for building user interfaces
-* [Victory](https://formidable.com/open-source/victory/) - React components for easily building data visualizations
+* [reactjs](https://reactjs.org/) - JavaScript library for building user interfaces.
+* [Victory](https://formidable.com/open-source/victory/) - React components for easily building data visualizations.
 
 ### Application Structure
 #### Backend

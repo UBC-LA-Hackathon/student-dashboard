@@ -5,7 +5,9 @@
 ## You have data, now what?
 In [Step 3](3-Make-API-Calls.md) you fetched data from an endpoint you created and displayed it on the screen. The next step is to make this data more useful by turning it into a data visualization.
 
+We'll use [Victory](https://formidable.com/open-source/victory/) to make it easy to build data visualizations.
 
+TODO: Once we decide what students are building, add in more instructions
 
 ## Next step
 How much time do you have left?
