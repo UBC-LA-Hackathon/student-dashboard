@@ -10,6 +10,7 @@ We will also provide other data sources that you are welcome to integrate to bui
 1. [Getting Started](#%EF%B8%8F-getting-started)
 1. [Code Overview](#-code-overview)
 1. [Tasks](#-tasks)
+1. [Organizers](#organizers)
 
 ## 📚 What You'll Learn
 By completing this workshopathon, you'll learn to:
@@ -57,14 +58,14 @@ These instructions will get you a copy of the project up and running on your loc
 1. Navigate into repo. `cd student-dashboard`
 
 #### Backend
-1. `cd backend`
-1. `npm install`
-1. `npm start`
+1. Navigate into `backend` repo. `cd backend`
+1. Install required dependencies. `npm install`
+1. Start server. `npm start`
 
 #### Frontend
-1. `cd frontend`
-1. `npm install`
-1. `npm start`
+1. Navigate into `frontend` repo. `cd frontend`
+1. Install required dependencies. `npm install`
+1. Start frontend application. `npm start`
 
 ## 💾 Code Overview
 ### Dependencies
@@ -93,3 +94,8 @@ These instructions will get you a copy of the project up and running on your loc
 1. [Create more advanced data visualizations/tools](5-Create-Advanced-Data-Viz.md)
 1. [Share your work](6-Share-Your-Work.md)
 1. [Feedback and thanks](7-Feedback-And-Thanks.md)
+
+## Organizers
+This hackathon is a collaborative effort by the [UBC Learning Analytics](https://learninganalytics.ubc.ca/) project, [LAVA](https://blogs.ubc.ca/lava/) (Learning Analytics, Visual Analytics), and [Sauder Learning Services](https://www.sauder.ubc.ca/about-ubc-sauder/learning-services), with staff volunteers from [Faculty of Arts](https://www.arts.ubc.ca/), [Faculty of Education](https://educ.ubc.ca/), [Sauder School of Business](https://www.sauder.ubc.ca/), and the [Centre for Teaching, Learning and Technology](https://ctlt.ubc.ca/).
+
+A big thank you to [Sauder Learning Labs](https://www.sauder.ubc.ca/about-ubc-sauder/learning-services/learning-labs) for providing a space designed to facilitate teams in using critical thinking and analytical decision making to solve real-world problems.
