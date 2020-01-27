@@ -15,7 +15,7 @@ We will also provide other data sources that you are welcome to integrate to bui
 By completing this workshopathon, you'll learn to:
 * use the Canvas API
 * explore the data that Canvas collects from you
-* write some JavaScript
+* write some code in JavaScript
 * learn the difference between the backend and frontend
 * clean data
 * build your own API endpoints
@@ -86,9 +86,9 @@ These instructions will get you a copy of the project up and running on your loc
 * `App.js` - The top-level React component that is responsible for fetching data and rendering child React components that you will build.
 
 ## ✅ Tasks
-1. [Create a Canvas API token and make calls to the Canvas API.](1-Canvas-API-Token.md)
-1. [Create API endpoints in backend.](2-API-Endpoints.md)
-1. [Make API calls from frontend to frontend.](3-Make-API-Calls.md)
-1. [Create data visualization dashboard.](4-Create-Data-Viz-Dashboard.md)
-1. [Create more advanced data visualizations/tools.](5-Create-Advanced-Data-Viz.md)
-1. [Share your work.](6-Share-Your-Work.md)
+1. [Create a Canvas API token and make calls to the Canvas API](1-Canvas-API-Token.md)
+1. [Create API endpoints in backend](2-API-Endpoints.md)
+1. [Make API calls from frontend to frontend](3-Make-API-Calls.md)
+1. [Create data visualization dashboard](4-Create-Data-Viz-Dashboard.md)
+1. [Create more advanced data visualizations/tools](5-Create-Advanced-Data-Viz.md)
+1. [Share your work](6-Share-Your-Work.md)
