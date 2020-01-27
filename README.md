@@ -51,9 +51,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 1. **Install [Node 12.0.0 or greater](https://nodejs.org)**.
 2. **Install [Git](https://git-scm.com/downloads)**.
+2. **Install [Visual Studio Code](https://code.visualstudio.com/)** (optional but recommended)
 
 ### Installation and starting application
-1. Open terminal on Mac or command line on Windows. I like to use [VSCode's integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
+1. Open terminal on Mac or command line on Windows. I like to use [VSCode's integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal), as it works for both Mac and PC.
 1. Clone this repo. `git clone https://github.com/UBC-LA-Hackathon/student-dashboard.git`
 1. Navigate into repo. `cd student-dashboard`
 
