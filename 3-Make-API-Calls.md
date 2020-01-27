@@ -24,7 +24,7 @@ function App () {
 }
 ```
 
-Notice that there's a `self` that is currently set to `undefined`. When `self` is `undefined`, then `attendee` is displayed. Your first task is to make `self` defined so that your name from Canvas is displayed in the browser.
+Notice that there's a variable `self` that is currently set to `undefined`. When `self` is `undefined`, then `attendee` is displayed. Your first task is to make `self` defined so that your name from Canvas is displayed in the browser.
 
 So we need to:
 
