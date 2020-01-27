@@ -7,7 +7,7 @@ We will also provide other data sources that you are welcome to integrate to bui
 1. [What You'll Learn](#-what-youll-learn)
 1. [Ask For Help](#-ask-for-help)
 1. [Schedule](#-schedule)
-1. [Getting Started](#-getting-started)
+1. [Getting Started](#%EF%B8%8F-getting-started)
 1. [Code Overview](#-code-overview)
 1. [Tasks](#-tasks)
 
