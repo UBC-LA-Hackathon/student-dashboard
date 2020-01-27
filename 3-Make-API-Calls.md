@@ -33,7 +33,7 @@ So we need to:
 
 To make an API call from React, we'll have to use the [`useEffect` hook](https://reactjs.org/docs/hooks-effect.html). `useEffect` is how we perform [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) in React. Inside of `useEffect`, we'll use the appropriately named [`fetch` function](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) to "fetch" our data from the backend.
 
-Add the following code where `Add useEffect here` is in `App.js`
+Add the following code where the comment `// Add useEffect here` is in `App.js`
 ```js
 useEffect(() => {
   fetch('http://localhost:4001/getSelf')
