@@ -16,14 +16,14 @@ Due to the compressed nature of this workshopathon, we'll be covering a lot of g
 
 ## 📚 What You'll Learn
 By completing this workshopathon, you'll learn to:
-* use the Canvas API
-* explore the data that Canvas collects from you
-* write some code in JavaScript
-* learn the difference between the backend and frontend
-* clean data
-* build your own API endpoints
-* use React to build frontend components
-* build a modern web application
+* use the [Canvas API](https://canvas.instructure.com/doc/api/)
+* explore the data that [Canvas](https://learninganalytics.ubc.ca/ethics-policy/students-learning-analytics-and-privacy/) collects from you
+* write some code in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* learn the difference between the [backend and frontend](https://en.wikipedia.org/wiki/Front_and_back_ends)
+* [clean data](https://www.sisense.com/glossary/data-cleaning/)
+* build your own [API endpoints](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
+* use [React](https://reactjs.org/) to build [frontend components](https://reactjs.org/docs/components-and-props.html)
+* build a [modern web application](https://reactjs.org/docs/components-and-props.html)
 
 ## 🤔 Ask For Help
 We don't expect you to come into the workshopathon with any prior knowledge. You may never have coded before - that's okay! You're here to learn, and we're here to help.
