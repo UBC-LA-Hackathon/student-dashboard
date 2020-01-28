@@ -31,14 +31,16 @@ app.get('/getSelf', /* what goes in here? */)
 It's actually quite similar to the previous endpoint we examined. We'll need to pass in a callback function as follows:
 
 ```js
-app.get('/getSelf', (req, res) => {
+app.get('/getSelf', async (req, res) => {
   // we need to now make a call to the Canvas API and send the result to the frontend
-  canvasAPI.getSelf()
-    .then(self => res.json(self))
+  const self = await canvasAPI.getSelf()
+  res.json(self)
 })
 ```
 
 Now, when the `/getSelf` endpoint is hit by navigating to http://localhost:4001/getSelf, the server knows to make a request to the Canvas API for information about the user, and once the information arrives, sends it to the frontend. You should see information about yourself when you navigate to http://localhost:4001/getSelf.
+
+The `async` and `await` keywords are relatively new additions in JavaScript that make it nicer to work with [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)). Read more about [`async await` here](https://expeditedsecurity.com/blog/javascript-equals-async-await/).
 
 Notice that instead of using `res.send`, we're using `res.json`. Instead of sending text, we're instead sending the data back in [JSON](https://en.wikipedia.org/wiki/JSON) format that Canvas api returns to the frontend.
 

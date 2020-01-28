@@ -3,6 +3,7 @@ const app = express()
 const cors = require('cors')
 const port = 4001
 const canvasAPI = require('node-canvas-api')
+const readCSV = require('./readCSV')
 
 app.use(cors())
 
