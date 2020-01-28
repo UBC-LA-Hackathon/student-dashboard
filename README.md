@@ -3,7 +3,7 @@ This project contains the basic backend and frontend components of the Student D
 
 We will also provide other data sources that you are welcome to integrate to build [more advanced tools and visualizations](5-Create-Advanced-Data-Viz.md).
 
-Due to the compressed nature of this workshopathon, we'll be covering a lot of ground in not a lot of time. You don't need to fully understand everything. There are lots of links to external readings and tutorials within the [Tasks](#-tasks) that you're welcome to explore. And remember that this repo will always be a resource you can access in the future!
+Due to the compressed nature of this workshopathon, we'll be covering a lot of ground in not a lot of time. You don't need to fully understand everything. There are lots of links to external readings and tutorials within [Tasks](#-tasks) that you're welcome to explore. And remember that this repo will always be a resource you can access in the future!
 
 ## Table of Contents
 1. [What You'll Learn](#-what-youll-learn)
