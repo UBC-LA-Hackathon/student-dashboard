@@ -7,8 +7,14 @@ const readCSV = require('./readCSV')
 
 app.use(cors())
 
-// Step 1.1: Make API call to Canvas API here
-
 app.get('/', (req, res) => res.send('Hello World!'))
+
+// Make API call to Canvas API here
+
+
+// Make endpoint for getSelf here
+
+
+// Make endpoint for reading CSV here
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

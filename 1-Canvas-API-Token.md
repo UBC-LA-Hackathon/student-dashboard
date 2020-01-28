@@ -45,7 +45,7 @@ const canvasAPI = require('node-canvas-api')
 
 This line imports a Canvas API object that comes with a [bunch of useful functions](https://github.com/ubccapico/node-canvas-api/tree/master/src). The one we want to use is the simplest: `getSelf`. This returns information about the person who makes the request.
 
-So add the following line:
+So add the following line below `// Make API call to Canvas API here `:
 
 ```js
 canvasAPI.getSelf()
