@@ -17,7 +17,7 @@ Due to the compressed nature of this workshopathon, we'll be covering a lot of g
 ## 📚 What You'll Learn
 By completing this workshopathon, you'll learn to:
 * use the [Canvas API](https://canvas.instructure.com/doc/api/)
-* explore the data that [Canvas](https://learninganalytics.ubc.ca/ethics-policy/students-learning-analytics-and-privacy/) collects from you
+* explore the data that [Canvas collects from you](https://learninganalytics.ubc.ca/ethics-policy/students-learning-analytics-and-privacy/)
 * write some code in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * learn the difference between the [backend and frontend](https://en.wikipedia.org/wiki/Front_and_back_ends)
 * [clean data](https://www.sisense.com/glossary/data-cleaning/)
