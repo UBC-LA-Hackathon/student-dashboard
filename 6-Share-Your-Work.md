@@ -3,7 +3,7 @@
 1. [Next step](#next-step)
 
 ## Optional
-Sharing your work is completely optional. We've set aside an hour for students to present their work.
+Sharing your work is completely optional. We've set aside an hour for you to present your work.
 
 TODO: Best way for students to share?
 
