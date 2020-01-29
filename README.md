@@ -34,7 +34,8 @@ And if you're already comfortable with some of the technology we're using, pleas
 
 ## 📅 Schedule
 ### Friday, March 12
-* tbd
+* 4:30pm - Design Thinking Workshop
+* 6:00pm - Social (pizza and pop)
 
 ### Saturday, March 13
 * 9:30am - Doors Open (coffee and pastries).
