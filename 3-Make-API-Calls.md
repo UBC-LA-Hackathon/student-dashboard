@@ -12,19 +12,19 @@ Open up `App.js`, and you'll see these lines:
 
 ```js
 function App () {
-  const [self, setSelf] = useState(undefined)
+  const [self, setSelf] = useState('attendee')
 
-  // Add useEffect here
+  // add useEffect here
 
   return (
     <div className='App'>
-      <p>Welcome to the Workshopathon, {self ? self.name : 'attendee'}!</p>
+      <p>Welcome to the Workshopathon, {self}!</p>
     </div>
   )
 }
 ```
 
-Notice that there's a variable `self` that is currently set to `undefined` by the [`useState` hook](https://reactjs.org/docs/hooks-state.html). When `self` is `undefined`, then `attendee` is displayed. Your first task is to make `self` defined so that your name from Canvas is displayed in the browser.
+Notice that there's a variable `self` that is currently set to `attendee` by the [`useState` hook](https://reactjs.org/docs/hooks-state.html). Your task is to call the `setSelf` function with your name from Canvas so that it displays in the browser.
 
 So we need to:
 
