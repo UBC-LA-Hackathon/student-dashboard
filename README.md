@@ -28,7 +28,7 @@ By completing this workshopathon, you'll learn to:
 * build a [modern web application](https://reactjs.org/docs/components-and-props.html)
 
 ## 🔨 What You'll Build
-You'll be building a web application that displays a heatmap of what days of the week and what time of the day you and your peers (and your instructor) are most actively posting in the discussion forum. 
+You'll be building a web application that displays a heatmap of what days of the week and what time of the day you and your peers (and your instructor) are most actively posting in the discussion forum.
 
 After you've completed this application, you are welcome to use the [tons of data we provide](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/5-Create-Advanced-Data-Viz.md#give-me-data) to build innovative new tools and visualizations.
 
@@ -90,6 +90,7 @@ These instructions will get you a copy of the project up and running on your loc
 #### Frontend
 * [reactjs](https://reactjs.org/) - JavaScript library for building user interfaces.
 * [Victory](https://formidable.com/open-source/victory/) - React components for easily building data visualizations.
+* [D3.js](https://d3js.org/) - The de facto way to build data visualizations on the web, painfully.
 
 ### Application Structure
 #### Backend
