@@ -41,7 +41,7 @@ const getNestedReplies = (replyObj, topicId) => {
   const replies = replyObj.hasOwnProperty('replies')
     ? flatten(
       // recursion in real life!
-      replyObj.replies.map(replyObj => getNestedReplies(replyObj))
+      replyObj.replies.map(replyObj => getNestedReplies(replyObj, topicId))
     ) : []
   return [{
     authorId: replyObj.user_id,
