@@ -6,7 +6,7 @@ Due to the compressed nature of this workshopathon, we'll be covering a lot of g
 
 ## Table of Contents
 1. [What You'll Learn](#-what-youll-learn)
-1. [What You'll Build](#what-youll-Build)
+1. [What You'll Build](#-what-youll-Build)
 1. [Ask For Help](#-ask-for-help)
 1. [Schedule](#-schedule)
 1. [Getting Started](#%EF%B8%8F-getting-started)
@@ -25,7 +25,7 @@ By completing this workshopathon, you'll learn to:
 * use [React](https://reactjs.org/) to build [frontend components](https://reactjs.org/docs/components-and-props.html)
 * build a [modern web application](https://reactjs.org/docs/components-and-props.html)
 
-## What You'll Build
+## 🔨 What You'll Build
 You'll be building a web application that displays a heatmap of what days of the week and what time of the day you and your peers (and your instructor) are most actively posting in the discussion forum. 
 
 After you've completed this application, you are welcome to use the [tons of data we provide](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/5-Create-Advanced-Data-Viz.md#give-me-data) to build innovative new tools and visualizations.
