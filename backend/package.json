@@ -15,5 +15,8 @@
     "neat-csv": "^5.1.0",
     "node-canvas-api": "^1.5.1",
     "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1"
   }
 }
