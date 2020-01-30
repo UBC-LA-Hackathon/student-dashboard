@@ -47,9 +47,7 @@ The `async` and `await` keywords are relatively new additions in JavaScript that
 Notice that instead of using `res.send`, we're using `res.json`. Instead of sending text, we're instead sending the data back in [JSON](https://en.wikipedia.org/wiki/JSON) format that Canvas api returns to the frontend.
 
 ## Let's create another endpoint
-This endpoint will consume a CSV file
-
-TODO: What CSV file, and why? What are students building?
+This endpoint will hit the Canvas Discussions API to get the discussion data required to create the heatmap. 
 
 ## Next step
 Now you're ready to go to [Step 3: Make API calls from frontend to backend.](3-Make-API-Calls.md)
