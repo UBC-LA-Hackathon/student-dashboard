@@ -2,7 +2,6 @@
 1. [Anatomy of an endpoint](#anatomy-of-an-endpoint)
 1. [Let's create a simple endpoint](#lets-create-a-simple-endpoint)
 1. [Let's create another endpoint](#lets-create-a-another-endpoint)
-1. [Let's create your own endpoint](#lets-create-your-own-endpoint)
 1. [Next step](#next-step)
 
 ## Anatomy of an endpoint
@@ -51,13 +50,6 @@ Notice that instead of using `res.send`, we're using `res.json`. Instead of send
 This endpoint will consume a CSV file
 
 TODO: What CSV file, and why? What are students building?
-
-## Let's create your own endpoint
-Okay, now it's your turn to create your own endpoint.
-
-TODO: Depends on what data students need to build whatever we want them to build.
-
-
 
 ## Next step
 Now you're ready to go to [Step 3: Make API calls from frontend to backend.](3-Make-API-Calls.md)

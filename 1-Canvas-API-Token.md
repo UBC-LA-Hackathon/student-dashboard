@@ -70,8 +70,5 @@ You should receive response back that looks something like this:
 ```
 **If you encounter an error, [please ask for help!](https://github.com/UBC-LA-Hackathon/student-dashboard#-ask-for-help)**
 
-## Read in CSV file
-
-
 ## Next step
 Now you're ready to go to [Step 2: Create API endpoints in backend.](2-API-Endpoints.md)
