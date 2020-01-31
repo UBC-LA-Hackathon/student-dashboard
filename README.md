@@ -62,7 +62,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. **Install [Node 12.0.0 or greater](https://nodejs.org)**.
 2. **Install [Git](https://git-scm.com/downloads)**.
 2. **Install [Visual Studio Code](https://code.visualstudio.com/)** (optional but recommended).
-2. **Install [Brave Browser](https://brave.com/) or [Firefox](https://www.mozilla.org/en-CA/firefox/), since [Chrome is spyware](https://www.washingtonpost.com/technology/2019/06/21/google-chrome-has-become-surveillance-software-its-time-switch/)** (optional but recommended, since the volunteers are more familiar with using the devtools of Brave or Firefox)
+2. **Install [Brave Browser](https://brave.com/) or [Firefox](https://www.mozilla.org/en-CA/firefox/), since [Chrome is spyware](https://www.washingtonpost.com/technology/2019/06/21/google-chrome-has-become-surveillance-software-its-time-switch/)** (optional but recommended; the volunteers are more familiar with using the devtools of Brave or Firefox).
 
 ### Installation and starting application
 1. Open terminal on Mac or command line on Windows. I like to use [VSCode's integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal), as it works for both Mac and PC.
