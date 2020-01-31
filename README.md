@@ -1,6 +1,6 @@
-Welcome to the [7th Learning Analytics hackathon](https://learninganalytics.ubc.ca/for-students/hackathons/)! This hackathon is really a workshop, so we're going to be referring to it as a `workshopathon` from here on out.
+Welcome to the [7th UBC Learning Analytics hackathon](https://learninganalytics.ubc.ca/for-students/hackathons/)! This hackathon is really a workshop, so we're going to be referring to it as a `workshopathon` from here on out.
 
-This repository contains the basic backend and frontend components of the Student Dashboard application you will be building. By the end of this workshopathon, you should have a working web application that displays your own Canvas data using the Canvas API.
+This repo contains the basic backend and frontend components of the Student Dashboard application you will be building. By the end of this workshopathon, you should have a working web application that displays your own Canvas data using the Canvas API.
 
 We will also provide other data sources that you are welcome to integrate to build [more advanced tools and visualizations](5-Create-Advanced-Data-Viz.md).
 

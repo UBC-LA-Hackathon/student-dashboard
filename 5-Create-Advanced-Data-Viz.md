@@ -18,6 +18,15 @@ TODO: Any more data?
 ## Give me ideas!
 Okay.
 
+### Intermediate
+* When a cell in the heatmap is hovered or clicked, show the discussions that were posted at that date and time.
+* Create a date range selector that will filter the data so that the heatmap displays only the data that fits within the specified date range.
+* Aggregate discussion from all of your courses instead of one course.
+* Create a way to show switch between showing just TA/Instructor posts and all posts.
+
+### Advanced
+*
+
 TODO: Add ideas here
 
 ## Next step
