@@ -14,8 +14,8 @@ Due to the compressed nature of this workshopathon, we'll be covering a lot of g
 1. [Getting Started](#%EF%B8%8F-getting-started)
 1. [Code Overview](#-code-overview)
 1. [Tasks](#-tasks)
-1. [Organizers](#organizers)
 1. [Project Showcase](#project-showcase)
+1. [Organizers](#organizers)
 
 ## 📚 What You'll Learn
 By completing this workshopathon, you'll learn to:
@@ -110,6 +110,9 @@ These instructions will get you a copy of the project up and running on your loc
 1. [Share your work](6-Share-Your-Work.md)
 1. [Feedback and thanks](7-Feedback-And-Thanks.md)
 
+## Project Showcase
+At the end of the workshopathon, you can put a link to your work here!
+
 ## Organizers
 This hackathon is a collaborative effort by the [UBC Learning Analytics](https://learninganalytics.ubc.ca/) project, [LAVA](https://blogs.ubc.ca/lava/) (Learning Analytics, Visual Analytics), and [Sauder Learning Services](https://www.sauder.ubc.ca/about-ubc-sauder/learning-services), with staff volunteers from [Faculty of Arts](https://www.arts.ubc.ca/), [Faculty of Education](https://educ.ubc.ca/), [Sauder School of Business](https://www.sauder.ubc.ca/), and the [Centre for Teaching, Learning and Technology](https://ctlt.ubc.ca/).
 
@@ -117,6 +120,3 @@ A big thank you to [Sauder Learning Labs](https://www.sauder.ubc.ca/about-ubc-sa
 
 And another big thank you to our volunteers from outside of UBC.
 TODO: Add list of volunteers
-
-## Project Showcase
-At the end of the workshopathon, you can put a link to your work here!
