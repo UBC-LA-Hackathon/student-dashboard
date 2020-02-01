@@ -41,11 +41,11 @@ There are many volunteers here with lots of software development experience who 
 And if you're already comfortable with some of the technology we're using, please help your neighbours!
 
 ## 📅 Schedule
-### Friday, March 12
+### Friday, March 13
 * 4:30pm - Design Thinking Workshop
 * 6:00pm - Social (pizza and pop)
 
-### Saturday, March 13
+### Saturday, March 14
 * 9:30am - Doors Open (coffee and pastries).
 * 10:00am - Introductions and Welcome to the Workshopathon! We'll give you an overview of the tasks and get you set up with this repository.
 * 10:30am - Icebreaker (get to know your neighbours).
