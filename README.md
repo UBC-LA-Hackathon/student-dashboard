@@ -15,6 +15,7 @@ Due to the compressed nature of this workshopathon, we'll be covering a lot of g
 1. [Code Overview](#-code-overview)
 1. [Tasks](#-tasks)
 1. [Organizers](#organizers)
+1. [Project Showcase](#project-showcase)
 
 ## 📚 What You'll Learn
 By completing this workshopathon, you'll learn to:
@@ -116,3 +117,6 @@ A big thank you to [Sauder Learning Labs](https://www.sauder.ubc.ca/about-ubc-sa
 
 And another big thank you to our volunteers from outside of UBC.
 TODO: Add list of volunteers
+
+## Project Showcase
+At the end of the workshopathon, you can put a link to your work here!
