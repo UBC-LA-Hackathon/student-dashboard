@@ -13,8 +13,11 @@ Open up `App.js`, and you'll see these lines:
 ```js
 function App () {
   const [self, setSelf] = useState('attendee')
+  const [discussion, setDiscussion] = useState([])
 
-  // add useEffect here
+  // add useEffect here for self
+
+  // add useEffect here for discussion
 
   return (
     <div className='App'>
