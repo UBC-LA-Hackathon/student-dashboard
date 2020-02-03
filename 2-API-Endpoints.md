@@ -47,7 +47,17 @@ The `async` and `await` keywords are relatively new additions in JavaScript that
 Notice that instead of using `res.send`, we're using `res.json`. Instead of sending text, we're instead sending the data back in [JSON](https://en.wikipedia.org/wiki/JSON) format that Canvas api returns to the frontend.
 
 ## Let's create another endpoint
-This endpoint will hit the Canvas Discussions API to get the discussion data required to create the heatmap. 
+This endpoint will hit the Canvas Discussions API to get the discussion data the frontend requires to create the heatmap.
+
+Under `// Make endpoint for getDiscussions here`, go ahead and create an endpoint for `/getDiscussions`.
+
+At the top of the file, you'll see that we're provided two functions, `getDiscussions` and `flattenTopicAndReplies`.
+
+`getDiscussions` takes as input a Canvas course id. Open [Canvas](https://canvas.ubc.ca/) and click on a course, and you'll see the URL is something like `https://canvas.ubc.ca/courses/4271`. The number at the end, in this case `4271`, is the Canvas id.
+
+`flattenTopicAndReplies` modifies the nested data returned by `getDiscussions` by converting it to a structured format that is better suited to build the heatmap.
+
+Your task is to call `getDiscussions` with the Canvas id, `await` the response, call `flattenTopicAndReplies` on the response, then send it back to the frontend.
 
 ## Next step
 Now you're ready to go to [Step 3: Make API calls from frontend to backend.](3-Make-API-Calls.md)

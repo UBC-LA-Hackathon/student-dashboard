@@ -16,9 +16,6 @@ app.get('/', (req, res) => res.send('Hello World!'))
 // Make endpoint for getSelf here
 
 
-// Make endpoint for reading CSV here
-
-
 // Make endpoint for getDiscussions here
 
 
