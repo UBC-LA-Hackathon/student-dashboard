@@ -22,9 +22,12 @@ function App () {
   return (
     <div className='App'>
       <p>Welcome to the Workshopathon, {self}!</p>
+      <Discussion data={discussion} />
     </div>
   )
 }
+
+export default App
 ```
 
 Notice that there's a variable `self` that is currently set to `attendee` by the [`useState` hook](https://reactjs.org/docs/hooks-state.html). Your task is to call the `setSelf` function with your name from Canvas so that it displays in the browser.
