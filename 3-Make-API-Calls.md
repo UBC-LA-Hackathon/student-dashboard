@@ -53,7 +53,7 @@ The second parameter is `[]`, an empty array - this just tells React to only per
 React is clever and will take care of displaying our name once `self` is set. Save `App.js`, and you should see `Welcome to the Workshopathon, {Your name from Canvas here}!`.
 
 ## Create your own API call
-Now that you've learned how to make a basic API call using React and `fetch`, try making a call to the `/getDiscussions` endpoing you created in the previous step, then set the `discussion` variable with the result.
+Now that you've learned how to make a basic API call using React and `fetch`, try making a call to the `/getDiscussions` endpoint you created in the previous step, then set the `discussion` variable with the result.
 
 ## Next step
 Now you're ready to go to [Step 4: Create data visualization dashboard.](4-Create-Data-Viz-Dashboard.md)
