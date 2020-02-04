@@ -1,6 +1,6 @@
 ## Table of Contents
 1. [Generate your Canvas access token](#generate-your-Canvas-access-token)
-1. [Put your token into the backend server.js](#put-your-token-into-the-backend-server.js)
+1. [Put your token into the backend](#put-your-token-into-the-backend)
 1. [Start the server](#start-the-server)
 1. [Create an API call to Canvas from within server.js](#create-an-API-call-to-Canvas-from-within-server.js)
 1. [Next step](#next-step)
@@ -54,7 +54,7 @@ canvasAPI.getSelf()
 
 Once you save the file, the server will automatically restart.
 
-You should receive response back that looks something like this:
+You should receive response back that looks something like this printed in the terminal:
 ```js
 {
   id: 50,
