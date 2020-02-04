@@ -122,7 +122,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. [Feedback and thanks](7-Feedback-And-Thanks.md)
 
 ## Project Showcase
-At the end of the workshopathon, you can put a link to your work here!
+At the end of the workshopathon, you can [put a link to your work here](6-Share-Your-Work.md#share-your-work)!
 
 ## Organizers
 This hackathon is a collaborative effort by the [UBC Learning Analytics](https://learninganalytics.ubc.ca/) project, [LAVA](https://blogs.ubc.ca/lava/) (Learning Analytics, Visual Analytics), and [Sauder Learning Services](https://www.sauder.ubc.ca/about-ubc-sauder/learning-services), with staff volunteers from [Faculty of Arts](https://www.arts.ubc.ca/), [Faculty of Education](https://educ.ubc.ca/), [Sauder School of Business](https://www.sauder.ubc.ca/), and the [Centre for Teaching, Learning and Technology](https://ctlt.ubc.ca/).
