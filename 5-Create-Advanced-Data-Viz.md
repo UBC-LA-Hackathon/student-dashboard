@@ -19,6 +19,7 @@ TODO: Any more data?
 Okay.
 
 ### Intermediate
+* Create a dropdown that allows users to select what course they want to see the heatmap for.
 * Add a legend to the heatmap showing how many posts each shade of blue represents.
 * When a cell in the heatmap is hovered, display a count of the number of posts.
 * Create a date range selector that will filter the data so that the heatmap displays only the data that fits within the specified date range.
@@ -27,8 +28,7 @@ Okay.
 
 ### Advanced
 * When a cell in the heatmap is hovered or clicked, show the discussions that were posted at that date and time.
-
-TODO: Add ideas here
+* Create something entirely new with all the data we provide!
 
 ## Next step
 Now you're ready to go to [Step 6: Share Your Work.](6-Share-Your-Work.md)
