@@ -18,7 +18,7 @@ In `App`, you'll see the following line near the bottom:
 <Discussion data={discussion} />
 ```
 
-`Discussion` is a React component that takes one `prop` (`data`), which you can conceptually think of as an input to the component. So we're passing the variable `discussion` down to the `Discussion` component via a `prop` we named `data`. Phew.
+`Discussion` is a React component that takes one `prop` we named `data`, which you can conceptually think of as an input to the component.
 
 Open up `Discussion`, and you'll see this line:
 
@@ -33,9 +33,9 @@ const discussionTimestamps = data
   .map(discussion => discussion.timestamp)
 ```
 
-You may be wondering why we do this, instead of just sending the data as is to `Heatmap`. Well, we designed `Heatmap` to only rely on `timestamps`, and it's better practice to send child components just the data it requires instead of the entire kitchen sink.
+Why do this instead of just sending the data as is to `Heatmap`? Well, we designed `Heatmap` to only rely on `timestamps`, and it's better practice to send child components just the data it requires instead of the entire kitchen sink.
 
-Similar to how `App` passed data down to `Discussion`, `Discussion` passes the `timestamps` down to `Heatmap`:
+Similar to how `App` passed data down to `Discussion`, `Discussion` now passes the `timestamps` down to `Heatmap`:
 
 ```js
 <Heatmap timestamps={timestamps} />
