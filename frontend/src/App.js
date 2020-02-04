@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Discussion from './components/Discussion'
 import './App.css'
 
 function App () {

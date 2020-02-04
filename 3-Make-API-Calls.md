@@ -36,7 +36,7 @@ So we need to:
 
 To make an API call from React, we'll have to use the [`useEffect` hook](https://reactjs.org/docs/hooks-effect.html). `useEffect` is how we perform [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) in React. Inside of `useEffect`, we'll use the appropriately named [`fetch` function](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) to "fetch" our data from the backend.
 
-Add the following code where the comment `// Add useEffect here` is in `App.js`
+Add the following code where the comment `// add useEffect here for self` is in `App.js`
 ```js
 useEffect(() => {
   fetch('http://localhost:4001/getSelf')
@@ -53,7 +53,7 @@ The second parameter is `[]`, an empty array - this just tells React to only per
 React is clever and will take care of displaying our name once `self` is set. Save `App.js`, and you should see `Welcome to the Workshopathon, {Your name from Canvas here}!`.
 
 ## Create your own API call
-Now that you've learned how to make a basic API call using React and `fetch`, try making a call to the endpoint you created in the previous step and displaying some of that data.
+Now that you've learned how to make a basic API call using React and `fetch`, try making a call to the `/getDiscussions` endpoing you created in the previous step, then set the `discussion` variable with the result.
 
 ## Next step
 Now you're ready to go to [Step 4: Create data visualization dashboard.](4-Create-Data-Viz-Dashboard.md)

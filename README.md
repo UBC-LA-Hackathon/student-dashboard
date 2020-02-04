@@ -92,7 +92,7 @@ These instructions will get you a copy of the project up and running on your loc
 #### Frontend
 * [reactjs](https://reactjs.org/) - JavaScript library for building user interfaces.
 * [Victory](https://formidable.com/open-source/victory/) - React components for easily building data visualizations.
-* [D3.js](https://d3js.org/) - The de facto way to build data visualizations on the web, painfully.
+* [D3.js](https://d3js.org/) - The de facto way to build data visualizations on the web, somewhat painfully.
 
 ### Application Structure
 #### Backend
