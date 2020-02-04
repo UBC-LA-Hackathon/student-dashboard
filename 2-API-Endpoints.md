@@ -15,7 +15,7 @@ Think of `app` as the server, which has a method `get`. This method takes two in
 
 The first input specifies the API endpoint path. In this case, the path is `/`, which means that when you navigate to http://localhost:4001/, the frontend will hit this endpoint.
 
-The second input is more interesting, as it is a [callback function](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function) that takes two inputs, `req` and `res`, which are shorthand for `request` and `response`. We'll deal with `req` later. `res` is the response that we want to send to the frontend - in this case, we're sending `Hello World!`.
+The second input is more interesting, as it is a [callback function](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function) that takes two inputs, `req` and `res`, which are shorthand for `request` and `response`. `res` is the response that we want to send to the frontend - in this case, we're sending `Hello World!`.
 
 So, in summary, when you navigate to http://localhost:4001/, the server will determine that the endpoint requested is `/`, and respond with the `Hello World!` message.
 
@@ -32,7 +32,7 @@ It's actually quite similar to the previous endpoint we examined. We'll need to 
 
 ```js
 app.get('/getSelf', async (req, res) => {
-  // we need to now make a call to the Canvas API and send the result to the frontend
+  // we need to now make a call to the Canvas API, wait for the response, then send the result to the frontend
   const self = await canvasAPI.getSelf()
   res.json(self)
 })
