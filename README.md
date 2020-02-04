@@ -74,7 +74,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Copy clone link.
 ![clone](./_assets/clone.png)
 1. Open terminal on Mac or command line on Windows. We like to use [VSCode's integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal), as it works for both Mac and PC.
-1. Clone repo. `git clone {paste URL you copied}`.
+1. Clone repo. `git clone {paste URL you copied}`
 1. Navigate into repo. `cd student-dashboard`
 
 #### Backend
