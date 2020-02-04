@@ -11,6 +11,8 @@ TODO: Add links to data
 * [Grade distribution data (CSV)](): contains grade distribution data of courses at UBC.
 * [Canvas activity API (JSON)](): provides your own activity data from Canvas.
 
+You can use `readCSV.js` in the `backend` folder to read the CSVs into the server.
+
 ## Give me ideas!
 
 ### Heatmap

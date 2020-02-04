@@ -1,5 +1,10 @@
 const canvasAPI = require('node-canvas-api')
-const { flatten } = require('./util')
+
+const flatten = arr => arr.reduce((acc, cur) =>
+  Array.isArray(cur)
+    ? [...acc, ...cur]
+    : [...acc, cur]
+, [])
 
 const flattenTopicAndReplies = discussions => {
   return discussions.reduce((acc, cur) => {
