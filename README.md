@@ -29,7 +29,7 @@ By completing this workshopathon, you'll learn to:
 * build a [modern web application](https://reactjs.org/docs/components-and-props.html)
 
 ## 🔨 What You'll Build
-You'll be building a web application that displays a heatmap of what days of the week and what time of the day you and your peers (and your instructor) are most actively posting in the discussion forum.
+You'll be building a web application that displays a [heatmap](https://en.wikipedia.org/wiki/Heat_map) of what days of the week and what time of the day you and your peers (and your instructor) are most actively posting in the discussion forum.
 
 It should look something like this:
 ![heatmap](./_assets/heatmap.png)

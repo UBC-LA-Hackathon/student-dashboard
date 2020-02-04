@@ -11,8 +11,6 @@ TODO: Add links to data
 * [Grade distribution data (CSV)](): contains grade distribution data of courses at UBC.
 * [Canvas activity API (JSON)](): provides your own activity data from Canvas.
 
-TODO: Any more data?
-
 ## Give me ideas!
 
 ### Heatmap
@@ -34,6 +32,8 @@ Let's create some additional features for the heatmap.
 
 ### Create something new
 Don't want to build new features for the heatmap? That's okay!
+
+TODO: Any more data?
 
 #### Intermediate
 * Create a degree planning tool that shows students what courses they are eligible to register for, given a list of courses in Canvas students have completed and the [degree requirments data (CSV)](TODO: LINK)
