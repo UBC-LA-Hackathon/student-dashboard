@@ -81,8 +81,6 @@ function Heatmap ({ timestamps }) {
         .attr('y', d => d.day * cellSize)
         .attr('width', cellSize)
         .attr('height', cellSize)
-        .attr('rx', 4)
-        .attr('ry', 4)
         .attr('fill', d => getColour(d.count))
     }
   }, [timestamps])
