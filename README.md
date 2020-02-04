@@ -104,7 +104,7 @@ These instructions will get you a copy of the project up and running on your loc
 * [`readCSV.js`](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/backend/readCSV.js) - Simple utility for reading CSVs painlessly. Takes as input the path to the CSV.
 
 #### Frontend
-* [`App.js`](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/frontend/src/App.js) - The top-level React component that is responsible for fetching data and rendering child React components that you will build.
+* [`App.js`](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/frontend/src/App.js) - The top-level React component that is responsible for fetching data and passing data down to child React components.
 * [`Discussion.js`](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/frontend/src/components/Discussion.js) - `Discussion` modifies the data passed by `App` and passes it down to the child `Heatmap`.
 * [`Heatmap.js`](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/frontend/src/components/Heatmap.js) - Renders the heatmap using [D3.js](https://d3js.org/).
 
