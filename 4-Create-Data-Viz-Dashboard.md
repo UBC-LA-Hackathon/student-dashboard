@@ -44,6 +44,9 @@ Similar to how `App` passed data down to `Discussion`, `Discussion` passes the `
 ## Heatmap component
 Again, we destructure `timestamps` and modify the time to convert it from [UTC](https://www.timeanddate.com/worldclock/timezone/utc) to local time. Then we use [D3.js](https://d3js.org/) to create the heatmap.
 
+You should have something resembling this:
+![heatmap](./_assets/heatmap.png)
+
 ## Next step
 How much time do you have left?
 
