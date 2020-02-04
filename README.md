@@ -16,6 +16,7 @@ Due to the compressed nature of this workshopathon, we'll be covering a lot of g
 1. [Tasks](#-tasks)
 1. [Project Showcase](#project-showcase)
 1. [Organizers](#organizers)
+1. [Volunteers](#volunteers)
 
 ## 📚 What You'll Learn
 By completing this workshopathon, you'll learn to:
@@ -129,5 +130,6 @@ This hackathon is a collaborative effort by the [UBC Learning Analytics](https:/
 
 A big thank you to [Sauder Learning Labs](https://www.sauder.ubc.ca/about-ubc-sauder/learning-services/learning-labs) for providing a space designed to facilitate teams in using critical thinking and analytical decision making to solve real-world problems.
 
+## Volunteers
 And another big thank you to our volunteers from outside of UBC.
 TODO: Add list of volunteers
