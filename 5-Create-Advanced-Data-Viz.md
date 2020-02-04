@@ -19,13 +19,14 @@ TODO: Any more data?
 Okay.
 
 ### Intermediate
-* When a cell in the heatmap is hovered or clicked, show the discussions that were posted at that date and time.
+* Add a legend to the heatmap showing how many posts each shade of blue represents.
+* When a cell in the heatmap is hovered, display a count of the number of posts.
 * Create a date range selector that will filter the data so that the heatmap displays only the data that fits within the specified date range.
 * Aggregate discussion from all of your courses instead of one course.
 * Create a way to show switch between showing just TA/Instructor posts and all posts.
 
 ### Advanced
-*
+* When a cell in the heatmap is hovered or clicked, show the discussions that were posted at that date and time.
 
 TODO: Add ideas here
 
