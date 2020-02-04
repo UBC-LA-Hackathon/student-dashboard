@@ -23,9 +23,10 @@ function Heatmap ({ timestamps }) {
         })
         .reduce((acc, cur) => {
           const sameHourAndDay = acc
-            .find(timeObj =>
-              timeObj.hour === cur.hour &&
-              timeObj.day === cur.day
+            .find(
+              timeObj =>
+                timeObj.hour === cur.hour &&
+                timeObj.day === cur.day
             )
           if (sameHourAndDay) {
             sameHourAndDay.count++
@@ -56,7 +57,7 @@ function Heatmap ({ timestamps }) {
         .append('text')
         .text(d => d)
         .attr('x', -40)
-        .attr('y', (_, i) => i * cellSize)
+        .attr('y', (_, i) => i * cellSize - 10)
         .attr('class', 'dayLabels')
         .attr('transform', `translate(-6, ${cellSize / 1.5})`)
 
