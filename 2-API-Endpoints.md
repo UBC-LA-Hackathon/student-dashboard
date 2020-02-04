@@ -1,7 +1,7 @@
 ## Table of Contents
 1. [Anatomy of an endpoint](#anatomy-of-an-endpoint)
 1. [Let's create a simple endpoint](#lets-create-a-simple-endpoint)
-1. [Let's create another endpoint](#lets-create-a-another-endpoint)
+1. [Let's create another endpoint](#lets-create-another-endpoint)
 1. [Next step](#next-step)
 
 ## Anatomy of an endpoint
