@@ -4,8 +4,6 @@
 1. [Next step](#next-step)
 
 ## Give me data!
-Sure.
-
 TODO: Add links to data
 
 * [Course calendar data (CSV)](): contains information about all the courses offered at UBC from 2014-2019.
@@ -16,7 +14,6 @@ TODO: Add links to data
 TODO: Any more data?
 
 ## Give me ideas!
-Okay.
 
 ### Heatmap
 Let's create some additional features for the heatmap.
@@ -39,9 +36,11 @@ Let's create some additional features for the heatmap.
 Don't want to build new features for the heatmap? That's okay!
 
 #### Intermediate
-* Create a degree planning tool that shows students what courses they are eligible to register for, given a list of courses in Canvas students have completed.
+* Create a degree planning tool that shows students what courses they are eligible to register for, given a list of courses in Canvas students have completed and the [degree requirments data (CSV)](TODO: LINK)
+*
 
 #### Advanced
+*
 
 
 ## Next step
