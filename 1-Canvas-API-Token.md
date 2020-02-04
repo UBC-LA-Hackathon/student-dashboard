@@ -15,7 +15,7 @@
 
 > Never share your token with anyone. If you think your token may have been exposed (for example, by accidentally posting it to GitHub), delete your token from Canvas right away. Instructions for creating and deleting access tokens as a student are [available on the Canvas Guides](https://community.canvaslms.com/docs/DOC-16005-42121018197).
 
-## Put your token into the backend `server.js`
+## Put your token into the backend.
 1. Create a `.env` file inside the `backend` folder. It's easiest to create this file using a code editor like [VSCode](https://code.visualstudio.com/).
 ![env](https://user-images.githubusercontent.com/8836578/72940819-7873c400-3d67-11ea-8184-97c8cea5b523.png)
 1. Copy the snippet below into `.env`.
