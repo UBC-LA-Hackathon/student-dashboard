@@ -69,11 +69,11 @@ These instructions will get you a copy of the project up and running on your loc
 2. **Install [Brave](https://brave.com/) or [Firefox](https://www.mozilla.org/en-CA/firefox/), since [Chrome is spyware](https://www.washingtonpost.com/technology/2019/06/21/google-chrome-has-become-surveillance-software-its-time-switch/)** (optional but recommended; the volunteers are more familiar with using the devtools of Brave or Firefox).
 
 ### Installation and setup
-1. Open terminal on Mac or command line on Windows. We like to use [VSCode's integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal), as it works for both Mac and PC.
 1. Fork this repo.
 ![fork](./_assets/fork.png)
 1. Copy clone link.
 ![clone](./_assets/clone.png)
+1. Open terminal on Mac or command line on Windows. We like to use [VSCode's integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal), as it works for both Mac and PC.
 1. Clone repo. `git clone {paste URL you copied}`.
 1. Navigate into repo. `cd student-dashboard`
 
