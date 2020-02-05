@@ -52,8 +52,7 @@ And if you're already comfortable with some of the technology we're using, pleas
 ### Saturday, March 14
 * 9:30am - Doors Open (coffee and pastries).
 * 10:00am - Introductions and Welcome to the Workshopathon! We'll give you an overview of the tasks and get you set up with this repository.
-* 10:30am - Icebreaker (get to know your neighbours).
-* 11:00am - Start coding!
+* 10:15am - Start hacking!
 * 12:30pm - Lunch.
 * 1:00pm - Check-in.
 * 3:00pm - Check-in.
