@@ -58,5 +58,7 @@ React is clever and will take care of displaying our name once `self` is set. Sa
 ## Create your own API call
 Now that you've learned how to make a basic API call using React and `fetch`, try making a call to the `/getDiscussions` endpoint you created in the previous step, then set the `discussion` variable with the result.
 
+If you do this correctly, you should see a heatmap displayed on the browser.
+
 ## Next step
 Now you're ready to go to [Step 4: Create data visualization dashboard.](4-Create-Data-Viz-Dashboard.md)
