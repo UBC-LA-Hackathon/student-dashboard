@@ -1,9 +1,19 @@
 ## Table of Contents
 1. [Generate your Canvas access token](#generate-your-Canvas-access-token)
-1. [Put your token into the backend](#put-your-token-into-the-backend)
+1. [Create env file in backend](#create-env-file-in-backend)
 1. [Start the server](#start-the-server)
 1. [Create an API call to Canvas from within server.js](#create-an-api-call-to-canvas-from-within-serverjs)
 1. [Next step](#next-step)
+
+## Create env file in backend.
+1. Create a `.env` file inside the `backend` folder. It's easiest to create this file using a code editor like [VSCode](https://code.visualstudio.com/).
+![env](https://user-images.githubusercontent.com/8836578/72940819-7873c400-3d67-11ea-8184-97c8cea5b523.png)
+1. Copy the snippet below into `.env`.
+    ```
+    CANVAS_API_TOKEN=
+    CANVAS_API_DOMAIN=https://ubc.instructure.com/api/v1
+    ```
+1. In the next step, we'll create a token and paste it in the `CANVAS_API_TOKEN=` field.
 
 ## Generate your Canvas access token
 1. Log into Canvas at [canvas.ubc.ca](http://canvas.ubc.ca/). Click _Account_ in the left menu, and then click _Settings_.
@@ -12,19 +22,10 @@
 ![New Access Token](https://learninganalytics.ubc.ca/files/2019/05/Screen-Shot-2019-05-22-at-3.26.33-PM.png)
 1. Fill in the _Purpose_ field. For added security, set an expiry date for your token. This way, if you accidentally share your token or your token is stolen, at the very least it won’t be valid forever.
 1. Click _Generate Token_. Now copy your freshly generated token.
+1. `CANVAS_API_TOKEN={Paste your token here}`
+1. Save `.env`.
 
 > Never share your token with anyone. If you think your token may have been exposed (for example, by accidentally posting it to GitHub), delete your token from Canvas right away. Instructions for creating and deleting access tokens as a student are [available on the Canvas Guides](https://community.canvaslms.com/docs/DOC-16005-42121018197).
-
-## Put your token into the backend.
-1. Create a `.env` file inside the `backend` folder. It's easiest to create this file using a code editor like [VSCode](https://code.visualstudio.com/).
-![env](https://user-images.githubusercontent.com/8836578/72940819-7873c400-3d67-11ea-8184-97c8cea5b523.png)
-1. Copy the snippet below into `.env`.
-    ```
-    CANVAS_API_TOKEN=
-    CANVAS_API_DOMAIN=https://ubc.instructure.com/api/v1
-    ```
-1. Paste your token into the `CANVAS_API_TOKEN=` field.
-1. Save `.env`.
 
 ## Start the server
 1. Type `npm start` into terminal.
