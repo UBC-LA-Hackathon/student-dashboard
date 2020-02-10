@@ -33,7 +33,7 @@ By completing this workshopathon, you'll learn to:
 You'll be building a web application that displays a [heatmap](https://en.wikipedia.org/wiki/Heat_map) of what days of the week and what time of the day you and your peers (and your instructor) are most actively posting in the discussion forum of a course.
 
 It should look something like this:
-![heatmap](./_assets/heatmap.png)
+![heatmap](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/_assets/heatmap.png)
 
 After you've completed the heatmap, you can either add more [features to the heatmap](5-Create-Advanced-Data-Viz.md#give-me-ideas) or use the [tons of data we provide](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/5-Create-Advanced-Data-Viz.md#give-me-data) to build entirely new tools and visualizations.
 
