@@ -105,14 +105,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Application Structure
 #### Backend
-* [`server.js`](./blob/master/backend/server.js) - The entry point into our backend code. It starts the express server and is responsible for handling requests the frontend makes, making requests to the Canvas API, and reading/sending data to the frontend.
-* [`canvasDiscussions.js`](./blob/master/backend/canvasDiscussions.js) - Exports two functions, `getDiscussions` and `flattenTopicAndReplies`. The first takes as input a Canvas course id and pulls discussions from that course in a way that preserves the threaded nature of replies to discussion topics. The second flattens the topics and replies to make it easier for generating the heatmap.
-* [`readCSV.js`](./blob/master/backend/readCSV.js) - Simple utility for reading CSVs painlessly. Takes as input the path to the CSV.
+* [`server.js`](./backend/server.js) - The entry point into our backend code. It starts the express server and is responsible for handling requests the frontend makes, making requests to the Canvas API, and reading/sending data to the frontend.
+* [`canvasDiscussions.js`](./backend/canvasDiscussions.js) - Exports two functions, `getDiscussions` and `flattenTopicAndReplies`. The first takes as input a Canvas course id and pulls discussions from that course in a way that preserves the threaded nature of replies to discussion topics. The second flattens the topics and replies to make it easier for generating the heatmap.
+* [`readCSV.js`](./backend/readCSV.js) - Simple utility for reading CSVs painlessly. Takes as input the path to the CSV.
 
 #### Frontend
-* [`App.js`](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/frontend/src/App.js) - The top-level React component that is responsible for fetching data and passing data down to child React components.
-* [`Discussion.js`](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/frontend/src/components/Discussion.js) - `Discussion` modifies the data passed by `App` and passes it down to the child `Heatmap`.
-* [`Heatmap.js`](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/frontend/src/components/Heatmap.js) - Renders the heatmap using [D3.js](https://d3js.org/).
+* [`App.js`](./frontend/src/App.js) - The top-level React component that is responsible for fetching data and passing data down to child React components.
+* [`Discussion.js`](./frontend/src/components/Discussion.js) - `Discussion` modifies the data passed by `App` and passes it down to the child `Heatmap`.
+* [`Heatmap.js`](./frontend/src/components/Heatmap.js) - Renders the heatmap using [D3.js](https://d3js.org/).
 
 ## ✅ Tasks
 1. [Create a Canvas API token and make calls to the Canvas API](1-Canvas-API-Token.md)
