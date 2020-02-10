@@ -105,9 +105,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Application Structure
 #### Backend
-* [`server.js`](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/backend/server.js) - The entry point into our backend code. It starts the express server and is responsible for handling requests the frontend makes, making requests to the Canvas API, and reading/sending data to the frontend.
-* [`canvasDiscussions.js`](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/backend/canvasDiscussions.js) - Exports two functions, `getDiscussions` and `flattenTopicAndReplies`. The first takes as input a Canvas course id and pulls discussions from that course in a way that preserves the threaded nature of replies to discussion topics. The second flattens the topics and replies to make it easier for generating the heatmap.
-* [`readCSV.js`](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/backend/readCSV.js) - Simple utility for reading CSVs painlessly. Takes as input the path to the CSV.
+* [`server.js`](./blob/master/backend/server.js) - The entry point into our backend code. It starts the express server and is responsible for handling requests the frontend makes, making requests to the Canvas API, and reading/sending data to the frontend.
+* [`canvasDiscussions.js`](./blob/master/backend/canvasDiscussions.js) - Exports two functions, `getDiscussions` and `flattenTopicAndReplies`. The first takes as input a Canvas course id and pulls discussions from that course in a way that preserves the threaded nature of replies to discussion topics. The second flattens the topics and replies to make it easier for generating the heatmap.
+* [`readCSV.js`](./blob/master/backend/readCSV.js) - Simple utility for reading CSVs painlessly. Takes as input the path to the CSV.
 
 #### Frontend
 * [`App.js`](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/frontend/src/App.js) - The top-level React component that is responsible for fetching data and passing data down to child React components.
