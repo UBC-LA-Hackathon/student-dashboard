@@ -58,7 +58,13 @@ At the top of the file, you'll see that we're provided two functions, `getDiscus
 
 `flattenTopicAndReplies` modifies the nested data returned by `getDiscussions` by converting it to a structured format that is better suited for the heatmap.
 
-Your task is to call `getDiscussions` with the Canvas id, `await` the response, call `flattenTopicAndReplies` on the response, then send it back to the frontend.
+Your task is to:
+1. call `getDiscussions` with the Canvas course id of your choice
+1. `await` the response
+1. call `flattenTopicAndReplies` on the response
+1. send the modified response back to the frontend
+
+**Confused? [Please ask for help!](README.md#-ask-for-help)**
 
 ## Next step
 Now you're ready to go to [Step 3: Make API calls from frontend to backend.](3-Make-API-Calls.md)
