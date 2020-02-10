@@ -1,6 +1,6 @@
 ## Table of Contents
-1. [Generate your Canvas access token](#generate-your-Canvas-access-token)
 1. [Create env file in backend](#create-env-file-in-backend)
+1. [Generate your Canvas access token](#generate-your-Canvas-access-token)
 1. [Start the server](#start-the-server)
 1. [Create an API call to Canvas from within server.js](#create-an-api-call-to-canvas-from-within-serverjs)
 1. [Next step](#next-step)
