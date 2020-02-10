@@ -20,7 +20,7 @@ In `App`, you'll see the following line near the bottom:
 
 `Discussion` is a React component that takes one `prop` we named `data`, which you can conceptually think of as an input to the component.
 
-Open up `Discussion`, and you'll see this line:
+Open up `Discussion` (inside the `Component` folder), and you'll see this line:
 
 ```js
 function Discussion ({ data })
@@ -44,8 +44,7 @@ Similar to how `App` passed data down to `Discussion`, `Discussion` now passes t
 ## Heatmap component
 Again, we destructure `timestamps` and modify the time to convert it from [UTC](https://www.timeanddate.com/worldclock/timezone/utc) to local time. Then we use [D3.js](https://d3js.org/) to create the heatmap.
 
-You should have something resembling this:
-![heatmap](./_assets/heatmap.png)
+So there you have it. A working web application. But we're not done just yet!
 
 ## Next step
 How much time do you have left?
