@@ -22,7 +22,7 @@
 ![New Access Token](https://learninganalytics.ubc.ca/files/2019/05/Screen-Shot-2019-05-22-at-3.26.33-PM.png)
 1. Fill in the _Purpose_ field. For added security, set an expiry date for your token. This way, if you accidentally share your token or your token is stolen, at the very least it won’t be valid forever.
 1. Click _Generate Token_. Now copy your freshly generated token.
-1. `CANVAS_API_TOKEN={Paste your token here}`
+1. In the `.env`, `CANVAS_API_TOKEN={Paste your token here}`
 1. Save `.env`.
 
 > Never share your token with anyone. If you think your token may have been exposed (for example, by accidentally posting it to GitHub), delete your token from Canvas right away. Instructions for creating and deleting access tokens as a student are [available on the Canvas Guides](https://community.canvaslms.com/docs/DOC-16005-42121018197).
