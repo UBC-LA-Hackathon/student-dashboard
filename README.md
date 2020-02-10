@@ -35,7 +35,7 @@ You'll be building a web application that displays a [heatmap](https://en.wikipe
 It should look something like this:
 ![heatmap](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/_assets/heatmap.png)
 
-After you've completed the heatmap, you can either add more [features to the heatmap](5-Create-Advanced-Data-Viz.md#give-me-ideas) or use the [tons of data we provide](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/5-Create-Advanced-Data-Viz.md#give-me-data) to build entirely new tools and visualizations.
+After you've completed the heatmap, you can either add more [features to the heatmap](5-Create-Advanced-Data-Viz.md#give-me-ideas) or use the [tons of data we provide](5-Create-Advanced-Data-Viz.md#give-me-data) to build entirely new tools and visualizations.
 
 ## 🤔 Ask For Help
 We don't expect you to come into the workshopathon with any prior knowledge. You may never have coded before - that's okay! You're here to learn, and we're here to help.
