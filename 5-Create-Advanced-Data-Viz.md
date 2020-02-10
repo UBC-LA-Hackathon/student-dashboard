@@ -1,7 +1,11 @@
 ## Table of Contents
+1. [Good work!](#good-work)
 1. [Give me data!](#give-me-data)
 1. [Give me ideas!](#give-me-ideas)
 1. [Next step](#next-step)
+
+## Good work!
+Good for you on making it this far! Since you have a lot of time remaining, try to build something a little bit more complex. We've provided data and some ideas to get you started.
 
 ## Give me data!
 TODO: Add links to data
