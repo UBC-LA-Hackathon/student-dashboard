@@ -81,11 +81,13 @@ These instructions will get you a copy of the project up and running on your loc
 1. Navigate into `backend` repo. `cd backend`
 1. Install required dependencies. `npm install`
 1. Start server. `npm start`
+1. In terminal, you should see `Example app listening on port 4001!`.
 
 #### Frontend
 1. Navigate into `frontend` repo. `cd frontend`
 1. Install required dependencies. `npm install`
 1. Start frontend application. `npm start`
+1. Your browser should start. If not, navigate to http://localhost:3000/. You should see `Welcome to the Workshopathon, attendee!`.
 
 ## 💾 Code Overview
 ### Dependencies
