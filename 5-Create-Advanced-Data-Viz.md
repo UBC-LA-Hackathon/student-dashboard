@@ -23,7 +23,6 @@ You can use [`readCSV.js`](./backend/readCSV.js) to read the CSVs into the serve
 Let's create some additional features for the heatmap.
 
 #### Intermediate
-1. Create a dropdown that allows users to select what course they want to see the heatmap for.
 1. Add a legend to the heatmap showing how many posts each shade of blue represents.
 1. When a cell in the heatmap is hovered, display a count of the number of posts.
 1. Create a date range selector that will filter the data so that the heatmap displays only the data that fits within the specified date range.
