@@ -23,18 +23,18 @@ You can use [`readCSV.js`](./backend/readCSV.js) to read the CSVs into the serve
 Let's create some additional features for the heatmap.
 
 #### Intermediate
-* Create a dropdown that allows users to select what course they want to see the heatmap for.
-* Add a legend to the heatmap showing how many posts each shade of blue represents.
-* When a cell in the heatmap is hovered, display a count of the number of posts.
-* Create a date range selector that will filter the data so that the heatmap displays only the data that fits within the specified date range.
-* Aggregate discussion from all of your courses instead of one course.
-* Create a way to show switch between showing just TA/Instructor posts and all posts.
+1. Create a dropdown that allows users to select what course they want to see the heatmap for.
+1. Add a legend to the heatmap showing how many posts each shade of blue represents.
+1. When a cell in the heatmap is hovered, display a count of the number of posts.
+1. Create a date range selector that will filter the data so that the heatmap displays only the data that fits within the specified date range.
+1. Aggregate discussion from all of your courses instead of one course.
+1. Create a way to show switch between showing just TA/Instructor posts and all posts.
 
 #### Advanced
-* When a cell in the heatmap is hovered or clicked, show the discussions that were posted at that date and time.
-* Create a calendar view so that it is possible to navigate between weeks/months.
-* Create a filter that allows users to select a specific individual to see when they post.
-* Run text/sentiment analysis on the discussion posts and use this data to create a heatmap.
+1. When a cell in the heatmap is hovered or clicked, show the discussions that were posted at that date and time.
+1. Create a calendar view so that it is possible to navigate between weeks/months.
+1. Create a filter that allows users to select a specific individual to see when they post.
+1. Run text/sentiment analysis on the discussion posts and use this data to create a heatmap.
 
 ### Create something new
 Don't want to build new features for the heatmap? That's okay!
@@ -42,11 +42,12 @@ Don't want to build new features for the heatmap? That's okay!
 TODO: Any more data?
 
 #### Intermediate
-* Create a degree planning tool that shows students what courses they are eligible to register for, given a list of courses in Canvas students have completed and the [degree requirments data (CSV)](TODO: LINK)
-*
+1. Create a degree planning tool that shows students what courses they are eligible to register for, given a list of courses in Canvas students have completed and the [degree requirments data (CSV)](TODO: LINK)
+1.
 
 #### Advanced
-*
+1.
+1.
 
 
 ## Next step
