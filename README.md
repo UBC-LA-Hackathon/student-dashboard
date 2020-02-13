@@ -93,7 +93,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Dependencies
 #### Backend
 * [nodejs](https://nodejs.org/en/) - JavaScript runtime.
-* [expressjs](https://expressjs.com/) - The server for building API endpoints, making calls to Canvas API, and reading/sending data.
+* [expressjs](https://expressjs.com/) - The framework for building our server via API endpoints, making calls to Canvas API, and reading/sending data.
 * [cors](https://expressjs.com/en/resources/middleware/cors.html) - A middleware to enable [Cross-Origin Resource Sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing).
 * [node-canvas-api](https://github.com/ubccapico/node-canvas-api) - Easy way to make calls to Canvas API using JavaScript.
 * [neat-csv](https://github.com/sindresorhus/neat-csv) - Simple way to read CSV files.
