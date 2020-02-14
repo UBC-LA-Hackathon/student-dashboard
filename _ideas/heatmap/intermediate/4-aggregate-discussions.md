@@ -11,6 +11,7 @@ Right now you'd hard-coded your Canvas course id in [server](../../../backend/se
 1. Call `getCoursesByUser` with your Canvas user id. 
 1. Extract the course ids from the response.
 1. Now you should have an array of course ids. For every course id, you have to call `getDiscussion`.
+    * Hint: I would recommend using [`Promise.all`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all).
 1. Once the discussions for every course is gathered, call `flattenTopicAndReplies` on every course discussion.
 1. Then flatten everything. This is confusing, so here's some pseudocode that may explain. 
     ```js
@@ -28,7 +29,12 @@ Right now you'd hard-coded your Canvas course id in [server](../../../backend/se
         [/* flattened discussion data from course 9012*/]
       ]
       // then call flatten
-      const flattend = [/* look its just one array now, instead of an array of arrays */]
+      const flattened = [
+        /* 
+        look its just one array now, instead of an array of arrays,
+        which is what the frontend expects
+        */
+     ]
     ```
 1. Finally, send this data to frontend.
 
