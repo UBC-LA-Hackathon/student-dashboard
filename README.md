@@ -93,7 +93,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Dependencies
 #### Backend
 * [nodejs](https://nodejs.org/en/) - JavaScript runtime.
-* [expressjs](https://expressjs.com/) - The framework for building our server via API endpoints, making calls to Canvas API, and reading/sending data.
+* [expressjs](https://expressjs.com/) - A framework for building our server's API endpoints.
 * [cors](https://expressjs.com/en/resources/middleware/cors.html) - A middleware to enable [Cross-Origin Resource Sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing).
 * [node-canvas-api](https://github.com/ubccapico/node-canvas-api) - Easy way to make calls to Canvas API using JavaScript.
 * [neat-csv](https://github.com/sindresorhus/neat-csv) - Simple way to read CSV files.
@@ -107,11 +107,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ![stack-diagram](./_assets/stack-diagram.png)
 Our web application will involve three autonomous entities (two of which we build): 
-* a **frontend** react application
-* a **backend** node.js/express application
+* a **frontend** React application
+* a **backend** Node.js/Express application
 * the **Canvas  API** (accessed through node-canvas-api)
 
-These three entities run independently but communicate with one another by exchanging data via API endpoints. Our node backend will be responsible for querying the Canvas API, processing the data returned, and hosting that data at API endpoints (that we create) for our frontend application to read and render to the browser.
+These three entities run independently but communicate with one another by exchanging data via API endpoints. Our Node backend will be responsible for querying the Canvas API, processing the data returned, and hosting that data at API endpoints (that we create) for our frontend application to read and render to the browser.
 
 #### Backend
 * [`server.js`](./backend/server.js) - The entry point into our backend code. It starts the express server and is responsible for handling requests the frontend makes, making requests to the Canvas API, and reading/sending data to the frontend.
