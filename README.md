@@ -104,6 +104,15 @@ These instructions will get you a copy of the project up and running on your loc
 * [D3.js](https://d3js.org/) - The de facto way to build data visualizations on the web, somewhat painfully.
 
 ### Application Structure
+
+![stack-diagram](./_assets/stack-diagram.png)
+Our web application will involve three autonomous entities (two of which we build): 
+* a **frontend** react application
+* a **backend** node.js/express application
+* the **Canvas  API** (accessed through node-canvas-api)
+
+These three entities run independently but communicate with one another by exchanging data via API endpoints. Our node backend will be responsible for querying the Canvas API, processing the data returned, and hosting that data at API endpoints (that we create) for our frontend application to read and render to the browser.
+
 #### Backend
 * [`server.js`](./backend/server.js) - The entry point into our backend code. It starts the express server and is responsible for handling requests the frontend makes, making requests to the Canvas API, and reading/sending data to the frontend.
 * [`canvasDiscussions.js`](./backend/canvasDiscussions.js) - Exports two functions, `getDiscussions` and `flattenTopicAndReplies`. The first takes as input a Canvas course id and pulls discussions from that course in a way that preserves the threaded nature of replies to discussion topics. The second flattens the topics and replies to make it easier for generating the heatmap.
