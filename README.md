@@ -40,7 +40,7 @@ By completing this workshopathon, you'll learn to:
 * [clean data](https://www.sisense.com/glossary/data-cleaning/)
 * build your own [API endpoints](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
 * use [React](https://reactjs.org/) to build [frontend components](https://reactjs.org/docs/components-and-props.html)
-* build a [modern web application](https://reactjs.org/docs/components-and-props.html)
+* build a [modern web application](https://bravoka.io/articles/modern-web-application-frameworks/)
 
 ## 🔨 What You'll Build
 You'll be building a web application that displays a [heatmap](https://en.wikipedia.org/wiki/Heat_map) of what days of the week and what time of the day you and your peers (and your instructor) are most actively posting in the discussion forum of a course.
