@@ -12,11 +12,3 @@ Please note we have a [code of conduct](./CODE_OF_CONDUCT.md), please follow it 
 1. Create your pull request.
 1. All pull requests to `master` must be reviewed by at least 1 maintainer in order to be merged.
 1. Once the pull request is approved, it will be merged into `master`.
-   
-### Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at [http://contributor-covenant.org/version/1/4][version]
-
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/
