@@ -1,3 +1,14 @@
+## Under active development
+Hello future hackathon attendee! Thanks for dropping by a little early. This repo is still being developed. If you fork the repo before the day of the event (March 14th), you will likely need to [sync your fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) so you have the latest copy.
+
+Feel free to poke around! And if you spot typos, please [open an issue](https://github.com/UBC-LA-Hackathon/student-dashboard/issues/new) or [a pull request](https://github.com/UBC-LA-Hackathon/student-dashboard/compare).
+
+Sign up [here](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already.
+
+See you all on the March 13/14!
+
+------
+
 Welcome to the [7th UBC Learning Analytics hackathon](https://learninganalytics.ubc.ca/for-students/hackathons/)! This hackathon is really a workshop, so we're going to be referring to it as a `workshopathon` from here on out.
 
 This repo contains the basic backend and frontend components of the Student Dashboard application you will be building. By the end of this workshopathon, you should have a working web application that displays your own Canvas data using the Canvas API.
@@ -108,7 +119,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Application Structure
 
 ![stack-diagram](./_assets/stack-diagram.png)
-Our web application will involve three autonomous entities (two of which we build): 
+Our web application will involve three autonomous entities (two of which we build):
 * a **frontend** React application
 * a **backend** Node.js/Express application
 * the **Canvas  API** (accessed through node-canvas-api)
