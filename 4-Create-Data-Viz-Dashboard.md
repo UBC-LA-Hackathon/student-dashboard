@@ -5,44 +5,41 @@
 1. [Next step](#next-step)
 
 ## You have data, now what?
-In [Step 3](3-Make-API-Calls.md) you fetched discussion data from the `/getDiscussions` endpoint created and set the `discussion` variable. Now we're passing this data from the `App` component to some child [React component](https://reactjs.org/docs/components-and-props.html) that will render the heatmap.
 
-There are two child components that we've prebuilt for you: `Discussion` and `Heatmap`.
+### Discussion
 
-The discussion data from `App` will be sent to `Discussion`, which will modify the data and send it to `Heatmap`, which will finally render the heatmap.
+In [Step 3](3-Make-API-Calls.md) you fetched discussion data from the `/getDiscussions` endpoint and set the `discussion` variable from within `Discussion`.
 
-## Discussion component
-In `App`, you'll see the following line near the bottom:
+We've written the following `useEffect` from within `Discussion`:
 
 ```js
-<Discussion data={discussion} />
+useEffect(() => {
+  if (discussion.length > 0) {
+    const discussionTimestamps = discussion
+      .map(discussion => discussion.timestamp)
+
+    setTimestamps(discussionTimestamps)
+  }
+}, [discussion])
 ```
+It checks to see if discussion data has been set - if so, it extracts the timestamp property and sets the `timestamps` variable. Why do this instead of just sending the data as is to `Heatmap`? Well, we designed `Heatmap` to only rely on `timestamps`, and it's better practice to send child components just the data it requires instead of the entire kitchen sink.
 
-`Discussion` is a React component that takes one `prop` we named `data`, which you can conceptually think of as an input to the component.
-
-Open up `Discussion` (inside the `Component` folder), and you'll see this line:
-
-```js
-function Discussion ({ data })
-```
-
-We're [destructing](https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/) the `data` prop from `App`. Then we pull just the `timestamp` field from the data in the following line:
+Then this data is send it to `Heatmap`, which will finally render the heatmap, in the following line:
 
 ```js
-const discussionTimestamps = data
-  .map(discussion => discussion.timestamp)
-```
-
-Why do this instead of just sending the data as is to `Heatmap`? Well, we designed `Heatmap` to only rely on `timestamps`, and it's better practice to send child components just the data it requires instead of the entire kitchen sink.
-
-Similar to how `App` passed data down to `Discussion`, `Discussion` now passes the `timestamps` down to `Heatmap`:
-
-```js
-<Heatmap timestamps={timestamps} />
+return (
+  <Heatmap timestamps={timestamps} />
+)
 ```
 
 ## Heatmap component
-Again, we destructure `timestamps` and modify the time to convert it from [UTC](https://www.timeanddate.com/worldclock/timezone/utc) to local time. Then we use [D3.js](https://d3js.org/) to create the heatmap.
+We [destructure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) the `timestamps` [prop](https://reactjs.org/docs/components-and-props.html) here:
+
+```js
+function Heatmap ({ timestamps }) {
+```
+
+We then convert the timestamp data into a count of how many fall within the same hour and day of week, and use [D3.js](https://d3js.org/) to create the heatmap.
 
 So there you have it. A working web application. But we're not done just yet!
 

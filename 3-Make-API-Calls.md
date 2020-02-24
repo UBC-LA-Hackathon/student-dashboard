@@ -11,23 +11,31 @@ Let's first start up our frontend app (unless you've already started it). Naviga
 Open up `App.js`, and you'll see these lines:
 
 ```js
-function App () {
-  const [self, setSelf] = useState('attendee')
-  const [discussion, setDiscussion] = useState([])
-
-  // add useEffect here for self
-
-  // add useEffect here for discussion
-
-  return (
+return (
     <div className='App'>
-      <p>Welcome to the Workshopathon, {self}!</p>
-      <Discussion data={discussion} />
+      <Welcome />
+      <Discussion />
     </div>
   )
 }
+```
 
-export default App
+`App` is simply a React component that is responsible for creating two child components `Welcome` and `Discussion`.
+
+### `Welcome.js`
+
+Let's now open up `Welcome.js` in the `component` folder.
+
+```js
+function Welcome () {
+  const [self, setSelf] = useState('attendee')
+
+  // add useEffect here for self
+
+  return (
+    <p>Welcome to the Workshopathon, {self}!</p>
+  )
+}
 ```
 
 Notice that there's a variable `self` that is currently set to `attendee` by the [`useState` hook](https://reactjs.org/docs/hooks-state.html). Your task is to call the `setSelf` function with your name from Canvas so that it displays in the browser.
@@ -56,7 +64,12 @@ The second parameter is `[]`, an empty array - this just tells React to only per
 React is clever and will take care of displaying our name once `self` is set. Save `App.js`, and you should see `Welcome to the Workshopathon, {Your name from Canvas here}!`.
 
 ## Create your own API call
-Now that you've learned how to make a basic API call using React and `fetch`, try making a call to the `/getDiscussions` endpoint you created in the previous step, then set the `discussion` variable with the result.
+In the previous step, you've learned how to make a basic API call using React and `fetch` in `Welcome`.
+
+### `Discussion.js`
+Now let's try making the same call from within `Discussion`.
+
+Hit the `/getDiscussions` endpoint you created in the previous step, then set the `discussion` variable with the result.
 
 If you do this correctly, you should see a heatmap displayed on the browser.
 
