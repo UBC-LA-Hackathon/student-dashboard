@@ -4,7 +4,7 @@
 When a cell in the heatmap is hovered, display a count of the number of posts.
 
 ## Overview
-To display a count on hover, you'll need to use D3's  to the heatmap cells. You may find [this guide](https://medium.com/@kj_schmidt/show-data-on-mouse-over-with-d3-js-3bf598ff8fc2) helpful.
+To display a count on hover, you'll need to add D3's `mouseover` and `mouseout` event handlers to the heatmap cells. You may find [this guide](https://medium.com/@kj_schmidt/show-data-on-mouse-over-with-d3-js-3bf598ff8fc2) helpful.
 
 ## Steps
 1. Add `mouseover` and `mouseout` events to the cells. 
