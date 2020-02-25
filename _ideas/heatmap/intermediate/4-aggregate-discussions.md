@@ -4,7 +4,7 @@
 Aggregate discussion from all of your courses instead of one course.
 
 ## Overview
-Right now you'd hard-coded your Canvas course id in [server](../../../backend/server.js) in the call to `getDiscussions`. Instead of hard-coding this course id, we'll use [`getCoursesByUser`](https://github.com/ubccapico/node-canvas-api/blob/master/src/getCoursesByUser.js) to retrieve all of the Canvas courses you have access to. `getCoursesByUser` takes as input a Canvas user id, which you can hard-code or be extra fancy by and call `getSelf` to retrieve (this is up to you). 
+Right now you've hard-coded your Canvas course id in [server](../../../backend/server.js) in the call to `getDiscussions`. Instead of hard-coding this course id, we'll use [`getCoursesByUser`](https://github.com/ubccapico/node-canvas-api/blob/master/src/getCoursesByUser.js) to retrieve all of the Canvas courses you have access to. `getCoursesByUser` takes as input a Canvas user id, which you can hard-code or be extra fancy about and call `getSelf` to retrieve (this is up to you). 
 
 ## Steps
 1. Retrieve or hard-code your Canvas user id.
