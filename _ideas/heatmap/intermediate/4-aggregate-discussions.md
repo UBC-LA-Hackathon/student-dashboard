@@ -31,7 +31,7 @@ Right now you'd hard-coded your Canvas course id in [server](../../../backend/se
       // then call flatten
       const flattened = [
         /* 
-        look its just one array now, instead of an array of arrays,
+        look it's just one array now, instead of an array of arrays,
         which is what the frontend expects
         */
      ]
