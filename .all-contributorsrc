@@ -6,6 +6,18 @@
   "commit": false,
   "contributors": [
     {
+      "login": "markoprodanovic",
+      "name": "Marko Prodanovic",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22332030?v=4",
+      "profile": "https://github.com/markoprodanovic",
+      "contributions": [
+        "doc",
+        "ideas",
+        "code",
+        "eventOrganizing",
+        "review"
+      ]
+    },
       "login": "justin0022",
       "name": "Justin Lee",
       "avatar_url": "https://avatars2.githubusercontent.com/u/8836578?v=4",
