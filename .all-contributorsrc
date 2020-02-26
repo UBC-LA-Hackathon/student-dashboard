@@ -85,6 +85,15 @@
         "ideas",
         "eventOrganizing"
       ]
+    },
+    {
+      "login": "qhuo",
+      "name": "qhuo",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838643?v=4",
+      "profile": "https://github.com/qhuo",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
