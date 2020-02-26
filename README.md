@@ -1,6 +1,6 @@
 ## Under active development
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Hello future hackathon attendee! Thanks for dropping by a little early. This repo is still being developed. If you fork the repo before the day of the event (March 14th), you will likely need to [sync your fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) so you have the latest copy.
 
@@ -175,6 +175,7 @@ And another big thank you to our volunteers and contributors.
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/qhuo"><img src="https://avatars3.githubusercontent.com/u/838643?v=4" width="100px;" alt=""/><br /><sub><b>qhuo</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=qhuo" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/vDeo"><img src="https://avatars3.githubusercontent.com/u/3041474?v=4" width="100px;" alt=""/><br /><sub><b>Vineet Deo</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=vDeo" title="Code">💻</a></td>
   </tr>
 </table>
 

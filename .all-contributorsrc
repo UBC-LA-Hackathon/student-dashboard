@@ -94,6 +94,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "vDeo",
+      "name": "Vineet Deo",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3041474?v=4",
+      "profile": "https://github.com/vDeo",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
