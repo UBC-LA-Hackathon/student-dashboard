@@ -42,6 +42,19 @@
         "eventOrganizing",
         "review"
       ]
+    },
+    {
+      "login": "craigdsthompson",
+      "name": "Craig Thompson",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6002755?v=4",
+      "profile": "https://github.com/craigdsthompson",
+      "contributions": [
+        "doc",
+        "ideas",
+        "code",
+        "eventOrganizing",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
