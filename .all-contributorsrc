@@ -130,6 +130,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "syin",
+      "name": "Shirley Yin",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2703742?v=4",
+      "profile": "https://shirleyyin.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
