@@ -30,6 +30,18 @@
         "eventOrganizing",
         "review"
       ]
+    },
+    {
+      "login": "alisonmyers",
+      "name": "alisonmyers",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22600917?v=4",
+      "profile": "https://github.com/alisonmyers",
+      "contributions": [
+        "doc",
+        "ideas",
+        "eventOrganizing",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
