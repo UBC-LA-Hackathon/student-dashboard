@@ -130,6 +130,24 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "AkimaLunar",
+      "name": "Ria Nicole Carmin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5331992?v=4",
+      "profile": "http://riacarmin.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "syin",
+      "name": "Shirley Yin",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2703742?v=4",
+      "profile": "https://shirleyyin.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
