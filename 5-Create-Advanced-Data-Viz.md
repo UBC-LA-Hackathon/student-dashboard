@@ -13,7 +13,6 @@ TODO: Add links to data
 * [Course calendar data (CSV)](): contains information about all the courses offered at UBC from 2014-2019.
 * [Degree requirements data (CSV)](): contains degree requirement data (co-reqs/pre-reqs, etc).
 * [Grade distribution data (CSV)](): contains grade distribution data of courses at UBC.
-* [Canvas activity API (JSON)](): provides your own activity data from Canvas.
 
 You can use [`readCSV.js`](./backend/readCSV.js) to read the CSVs into the server.
 
