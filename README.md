@@ -1,6 +1,6 @@
 ## Under active development
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Hello future hackathon attendee! Thanks for dropping by a little early. This repo is still being developed. If you fork the repo before the day of the event (March 14th), you will likely need to [sync your fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) so you have the latest copy.
 
@@ -178,6 +178,7 @@ And another big thank you to our volunteers and contributors.
     <td align="center"><a href="https://github.com/vDeo"><img src="https://avatars3.githubusercontent.com/u/3041474?v=4" width="100px;" alt=""/><br /><sub><b>Vineet Deo</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=vDeo" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/jsondoo"><img src="https://avatars1.githubusercontent.com/u/21695878?v=4" width="100px;" alt=""/><br /><sub><b>Jason Doo</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=jsondoo" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Crymzix"><img src="https://avatars3.githubusercontent.com/u/4514591?v=4" width="100px;" alt=""/><br /><sub><b>Chris Li</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=Crymzix" title="Code">💻</a></td>
+    <td align="center"><a href="http://riacarmin.com/"><img src="https://avatars2.githubusercontent.com/u/5331992?v=4" width="100px;" alt=""/><br /><sub><b>Ria Nicole Carmin</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=AkimaLunar" title="Code">💻</a></td>
   </tr>
 </table>
 
