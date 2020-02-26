@@ -1,0 +1,28 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "markoprodanovic",
+      "name": "Marko Prodanovic",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22332030?v=4",
+      "profile": "https://github.com/markoprodanovic",
+      "contributions": [
+        "doc",
+        "ideas",
+        "code",
+        "eventOrganizing",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "student-dashboard",
+  "projectOwner": "UBC-LA-Hackathon",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
