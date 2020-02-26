@@ -23,8 +23,10 @@ Let's create some additional features for the heatmap.
 
 #### Intermediate
 * Create a dropdown that allows users to select what course they want to see the heatmap for.
+* Change color scheme of heatmap.
 * Add a legend to the heatmap showing how many posts each shade of blue represents.
 * When a cell in the heatmap is hovered, display a count of the number of posts.
+* Display the discussion data using a bar chart or bubble chart instead of a heatmap.
 * Create a date range selector that will filter the data so that the heatmap displays only the data that fits within the specified date range.
 * Aggregate discussion from all of your courses instead of one course.
 * Create a way to show switch between showing just TA/Instructor posts and all posts.
@@ -41,12 +43,18 @@ Don't want to build new features for the heatmap? That's okay!
 TODO: Any more data?
 
 #### Intermediate
-* Create a degree planning tool that shows students what courses they are eligible to register for, given a list of courses in Canvas students have completed and the [degree requirments data (CSV)](TODO: LINK)
-*
+* Create a degree planning tool that shows students what courses they are eligible to register for, given a list of courses in Canvas students have completed and the [degree requirements data (CSV)](TODO: LINK)
+* Create a tool that allows you to compare courses that share the same information from a selected field using [course calendar data (CSV)](TODO: Link)
+* Determine the courses with no prerequisites or only 1 prerequisite using the [degree requirements data (CSV)](TODO: LINK).
+* Choose any course from the course calendar and display information about that course using the [course calendar data (CSV)](TODO: Link) and [degree requirements data (CSV)](TODO: LINK).
+* Display a bar chart or bubble chart instead of a heatmap using the [course calendar data (CSV)](TODO: LINK).
 
 #### Advanced
-*
-
+* Create a visualization that shows which buildings have the highest average grade using the [course calendar data (CSV)](TODO: LINK) and the [grade distribution data (CSV)](TODO: LINK).
+* Create a visualization that shows building occupation by time using the [course calendar data (CSV)](TODO: LINK).
+* Determine the longest dependent course sequence, or the fastest route to a degree using the [degree requirements data (CSV)](TODO: LINK).
+* Create a tool that allows you to optimize your course schedule to complete a degree using the [degree requirements data (CSV)](TODO: LINK).
+* Determine the walking distance between courses in your schedule using the [course calendar data (CSV)](TODO: LINK).
 
 ## Next step
 Now you're ready to go to [Step 6: Share Your Work.](6-Share-Your-Work.md)
