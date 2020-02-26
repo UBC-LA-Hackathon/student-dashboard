@@ -1,6 +1,6 @@
 ## Under active development
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Hello future hackathon attendee! Thanks for dropping by a little early. This repo is still being developed. If you fork the repo before the day of the event (March 14th), you will likely need to [sync your fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) so you have the latest copy.
 
@@ -172,6 +172,9 @@ And another big thank you to our volunteers and contributors.
     <td align="center"><a href="http://www.stoosepp.com"><img src="https://avatars1.githubusercontent.com/u/5882178?v=4" width="100px;" alt=""/><br /><sub><b>Stoo Sepp</b></sub></a><br /><a href="#ideas-stoosepp" title="Ideas, Planning, & Feedback">🤔</a> <a href="#eventOrganizing-stoosepp" title="Event Organizing">📋</a></td>
     <td align="center"><a href="https://github.com/willengle"><img src="https://avatars2.githubusercontent.com/u/9556551?v=4" width="100px;" alt=""/><br /><sub><b>willengle</b></sub></a><br /><a href="#ideas-willengle" title="Ideas, Planning, & Feedback">🤔</a> <a href="#eventOrganizing-willengle" title="Event Organizing">📋</a></td>
     <td align="center"><a href="https://github.com/sanamsh"><img src="https://avatars3.githubusercontent.com/u/35384641?v=4" width="100px;" alt=""/><br /><sub><b>sanamsh</b></sub></a><br /><a href="#ideas-sanamsh" title="Ideas, Planning, & Feedback">🤔</a> <a href="#eventOrganizing-sanamsh" title="Event Organizing">📋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/qhuo"><img src="https://avatars3.githubusercontent.com/u/838643?v=4" width="100px;" alt=""/><br /><sub><b>qhuo</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=qhuo" title="Code">💻</a></td>
   </tr>
 </table>
 
