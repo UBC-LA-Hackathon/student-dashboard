@@ -1,4 +1,7 @@
 ## Under active development
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 Hello future hackathon attendee! Thanks for dropping by a little early. This repo is still being developed. If you fork the repo before the day of the event (March 14th), you will likely need to [sync your fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) so you have the latest copy.
 
 Feel free to poke around! And if you spot typos, please [open an issue](https://github.com/UBC-LA-Hackathon/student-dashboard/issues/new) or [a pull request](https://github.com/UBC-LA-Hackathon/student-dashboard/compare).
@@ -156,3 +159,22 @@ A big thank you to [Sauder Learning Labs](https://www.sauder.ubc.ca/about-ubc-sa
 ## Volunteers
 And another big thank you to our volunteers from outside of UBC.
 TODO: Add list of volunteers
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/justin0022"><img src="https://avatars2.githubusercontent.com/u/8836578?v=4" width="100px;" alt=""/><br /><sub><b>Justin Lee</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=justin0022" title="Documentation">📖</a> <a href="#ideas-justin0022" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=justin0022" title="Code">💻</a> <a href="#eventOrganizing-justin0022" title="Event Organizing">📋</a> <a href="https://github.com/UBC-LA-Hackathon/student-dashboard/pulls?q=is%3Apr+reviewed-by%3Ajustin0022" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
