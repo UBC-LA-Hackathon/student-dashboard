@@ -17,6 +17,18 @@
         "eventOrganizing",
         "review"
       ]
+    },
+      "login": "justin0022",
+      "name": "Justin Lee",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8836578?v=4",
+      "profile": "https://github.com/justin0022",
+      "contributions": [
+        "doc",
+        "ideas",
+        "code",
+        "eventOrganizing",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
