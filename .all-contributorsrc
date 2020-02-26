@@ -103,6 +103,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "jsondoo",
+      "name": "Jason Doo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/21695878?v=4",
+      "profile": "https://github.com/jsondoo",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
