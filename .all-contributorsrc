@@ -55,6 +55,16 @@
         "eventOrganizing",
         "review"
       ]
+    },
+    {
+      "login": "stoosepp",
+      "name": "Stoo Sepp",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5882178?v=4",
+      "profile": "http://www.stoosepp.com",
+      "contributions": [
+        "ideas",
+        "eventOrganizing"
+      ]
     }
   ],
   "contributorsPerLine": 7,
