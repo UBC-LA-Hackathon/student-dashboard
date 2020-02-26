@@ -5,7 +5,7 @@ Feel free to poke around! And if you spot typos, please [open an issue](https://
 
 Sign up for the hackathon [here](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already.
 
-See you all on the March 13/14!
+See you all on March 13/14!
 
 ------
 
