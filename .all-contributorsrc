@@ -139,6 +139,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "qhou",
+      "name": "Quinn Hou",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17342319?v=4",
+      "profile": "http://qhou.github.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
