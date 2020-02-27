@@ -144,9 +144,10 @@ These three entities run independently but communicate with one another by excha
 1. [Create API endpoints in backend](2-API-Endpoints.md)
 1. [Make API calls from frontend to frontend](3-Make-API-Calls.md)
 1. [Create data visualization dashboard](4-Create-Data-Viz-Dashboard.md)
-1. [Create more advanced data visualizations/tools](5-Create-Advanced-Data-Viz.md)
-1. [Share your work](6-Share-Your-Work.md)
-1. [Feedback and thanks](7-Feedback-And-Thanks.md)
+1. [Create a dropdown to switch between classes.](5-Create-Course-Dropdown.md)
+1. [Create more advanced data visualizations/tools](6-Create-Advanced-Data-Viz.md)
+1. [Share your work](7-Share-Your-Work.md)
+1. [Feedback and thanks](8-Feedback-And-Thanks.md)
 
 ## Project Showcase
 At the end of the workshopathon, you can [put a link to your work here](6-Share-Your-Work.md#share-your-work)!
