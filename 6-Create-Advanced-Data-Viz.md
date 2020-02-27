@@ -49,4 +49,4 @@ TODO: Any more data?
 
 
 ## Next step
-Now you're ready to go to [Step 6: Share Your Work.](6-Share-Your-Work.md)
+Now you're ready to go to [Step 7: Share Your Work.](7-Share-Your-Work.md)
