@@ -1,7 +1,7 @@
 ## Table of Contents
 
 1. [Let's add some interacitivity](#lets-add-some-interactivity)
-1. [Even more endpoings](#even-more-endpoints)
+1. [Even more endpoints](#even-more-endpoints)
 1. [Next step](#next-step)
 
 ## Let's add some interactivity
