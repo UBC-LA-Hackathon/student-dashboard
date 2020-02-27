@@ -1,6 +1,7 @@
 ## Table of Contents
 
-1. [Let's add some interacitivity](#let's-add-some-interacitiy)
+1. [Let's add some interacitivity](#lets-add-some-interactivity)
+1. [Even more endpoings](#even-more-endpoints)
 1. [Next step](#next-step)
 
 ## Let's add some interactivity
@@ -9,7 +10,7 @@ We've now got a heatmap displaying for a course that we've [hardcoded](https://e
 
 ## Even more endpoints
 
-Time to put those skills from [Step 2](2-API-Endpoints.md) to use! In `server.js`, we need another endpoint (`/getCourses`) where we serve course data fetched from the Canvas API. Up to you to figure out this implementation, but don't forget to ask for help if you get stuck! (hint: `canvasAPI` object has function called `getCoursesByUser`)
+Time to put those skills from [Step 2](2-API-Endpoints.md) to use. In `server.js`, we need another endpoint (`/getCourses`) where we serve course data fetched from the Canvas API. Up to you to figure out this implementation, but don't forget to ask for help if you get stuck! (hint: `canvasAPI` object has function called `getCoursesByUser`)
 
 ## Next step
 
