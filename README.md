@@ -180,6 +180,7 @@ And another big thank you to our volunteers and contributors.
     <td align="center"><a href="https://github.com/jordancoblin"><img src="https://avatars1.githubusercontent.com/u/7538750?v=4" width="100px;" alt=""/><br /><sub><b>jcoblin</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=jordancoblin" title="Code">💻</a></td>
     <td align="center"><a href="http://riacarmin.com/"><img src="https://avatars2.githubusercontent.com/u/5331992?v=4" width="100px;" alt=""/><br /><sub><b>Ria Nicole Carmin</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=AkimaLunar" title="Code">💻</a></td>
     <td align="center"><a href="https://shirleyyin.com"><img src="https://avatars0.githubusercontent.com/u/2703742?v=4" width="100px;" alt=""/><br /><sub><b>Shirley Yin</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=syin" title="Code">💻</a></td>
+    <td align="center"><a href="http://qhou.github.io"><img src="https://avatars3.githubusercontent.com/u/17342319?v=4" width="100px;" alt=""/><br /><sub><b>Quinn Hou</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=qhou" title="Code">💻</a></td>
   </tr>
 </table>
 
