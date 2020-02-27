@@ -24,6 +24,7 @@ Let's create some additional features for the heatmap.
 #### Intermediate
 * Change color scheme of heatmap.
 * Add a legend to the heatmap showing how many posts each shade of blue represents.
+* Implement caching so that data for a course that is already fetched is not refetched unnecessarily. 
 * When a cell in the heatmap is hovered, display a count of the number of posts.
 * Display the discussion data using a bar chart or bubble chart instead of a heatmap.
 * Create a date range selector that will filter the data so that the heatmap displays only the data that fits within the specified date range.
