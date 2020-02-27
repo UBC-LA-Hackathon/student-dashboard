@@ -47,7 +47,6 @@ TODO: Any more data?
 * Create a tool that allows you to compare courses that share the same information from a selected field using [course calendar data (CSV)](TODO: Link)
 * Determine the courses with no prerequisites or only 1 prerequisite using the [degree requirements data (CSV)](TODO: LINK).
 * Choose any course from the course calendar and display information about that course using the [course calendar data (CSV)](TODO: Link) and [degree requirements data (CSV)](TODO: LINK).
-* Display a bar chart or bubble chart instead of a heatmap using the [course calendar data (CSV)](TODO: LINK).
 
 #### Advanced
 * Create a visualization that shows which buildings have the highest average grade using the [course calendar data (CSV)](TODO: LINK) and the [grade distribution data (CSV)](TODO: LINK).
