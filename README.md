@@ -137,9 +137,10 @@ These three entities run independently but communicate with one another by excha
 * [`readCSV.js`](./backend/readCSV.js) - Simple utility for reading CSVs painlessly. Takes as input the path to the CSV.
 
 #### Frontend
-* [`App.js`](./frontend/src/App.js) - The top-level React component that is responsible for fetching data and passing data down to child React components.
-* [`Discussion.js`](./frontend/src/components/Discussion.js) - `Discussion` modifies the data passed by `App` and passes it down to the child `Heatmap`.
+* [`App.js`](./frontend/src/App.js) - The top-level React component that is responsible for rendering the `Discussion` and `Heatmap` components.
+* [`Discussion.js`](./frontend/src/components/Discussion.js) - `Discussion` fetches discussion data, cleans it, and passes it down to the child component `Heatmap`.
 * [`Heatmap.js`](./frontend/src/components/Heatmap.js) - Renders the heatmap using [D3.js](https://d3js.org/).
+* [`Welcome.js`](./frontend/src/components/Welcome.js) - Renders a simple welcome message with the Canvas user's name, if available.
 
 ## ✅ Tasks
 1. [Create a Canvas API token and make calls to the Canvas API](1-Canvas-API-Token.md)
