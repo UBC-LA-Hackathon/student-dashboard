@@ -6,7 +6,7 @@ Hello future hackathon attendee! Thanks for dropping by a little early. This rep
 
 Feel free to poke around! And if you spot typos, please [open an issue](https://github.com/UBC-LA-Hackathon/student-dashboard/issues/new) or [a pull request](https://github.com/UBC-LA-Hackathon/student-dashboard/compare).
 
-Sign up for the hackathon [here](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already. **As of Feb 27, we're >80% sold out!**
+[Sign up for the hackathon](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already. **As of Feb 27, we're >80% sold out!**
 
 See you all on March 13/14!
 
@@ -46,10 +46,12 @@ By completing this workshopathon, you'll learn to:
 * build a [modern web application](https://bravoka.io/articles/modern-web-application-frameworks/)
 
 ## 🔨 What You'll Build
+👉 **[Live demo](https://student-dashboard.netlify.com/)**
+
 You'll be building a web application that displays a [heatmap](https://en.wikipedia.org/wiki/Heat_map) of what days of the week and what time of the day you and your peers (and your instructor) are most actively posting in the discussion forum of a course.
 
 It should look something like this:
-![heatmap](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/_assets/heatmap.png)
+![heatmap](/_assets/heatmap.png)
 
 After you've completed the heatmap, you can either add more [features to the heatmap](5-Create-Advanced-Data-Viz.md#give-me-ideas) or use the [tons of data we provide](5-Create-Advanced-Data-Viz.md#give-me-data) to build entirely new tools and visualizations.
 
