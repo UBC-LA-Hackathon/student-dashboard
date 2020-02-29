@@ -6,7 +6,7 @@ Hello future hackathon attendee! Thanks for dropping by a little early. This rep
 
 Feel free to poke around! And if you spot typos, please [open an issue](https://github.com/UBC-LA-Hackathon/student-dashboard/issues/new) or [a pull request](https://github.com/UBC-LA-Hackathon/student-dashboard/compare).
 
-[Sign up for the hackathon](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already. **As of Feb 27, we're >80% sold out!**
+[Sign up for the hackathon](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already. **As of Feb 29, we're sold out! We will open a waitlist soon - please check back!**
 
 See you all on March 13/14!
 
