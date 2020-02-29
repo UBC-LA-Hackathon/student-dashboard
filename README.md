@@ -20,8 +20,7 @@ We will also provide other data sources that you are welcome to integrate to bui
 
 Due to the compressed nature of this workshopathon, we'll be covering a lot of ground in not a lot of time. You don't need to fully understand everything. There are lots of links to external readings and tutorials within [Tasks](#-tasks) that you're welcome to explore. And remember that this repo will always be a resource you can access in the future (so give it a star)!
 
-~~Sound good? **[Register for this free event!](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/)**~~ **As of Feb 29, we're sold out! We will open a waitlist soon - please check back!**
-
+~~Sound good? **[Register for this free event!](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/)**~~ **As of Feb 29, we're sold out! We will open a waitlist soon - please check back in early March!**
 
 ## Table of Contents
 1. [What You'll Learn](#-what-youll-learn)
