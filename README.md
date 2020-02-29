@@ -6,7 +6,7 @@ Hello future hackathon attendee! Thanks for dropping by a little early. This rep
 
 Feel free to poke around! And if you spot typos, please [open an issue](https://github.com/UBC-LA-Hackathon/student-dashboard/issues/new) or [a pull request](https://github.com/UBC-LA-Hackathon/student-dashboard/compare).
 
-[Sign up for the hackathon](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already. **As of Feb 29, we're sold out! We will open a waitlist soon - please check back!**
+~~[Sign up for the hackathon](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already.~~ **As of Feb 29, we're sold out! We will open a waitlist soon - please check back early March!**
 
 See you all on March 13/14!
 
@@ -20,7 +20,8 @@ We will also provide other data sources that you are welcome to integrate to bui
 
 Due to the compressed nature of this workshopathon, we'll be covering a lot of ground in not a lot of time. You don't need to fully understand everything. There are lots of links to external readings and tutorials within [Tasks](#-tasks) that you're welcome to explore. And remember that this repo will always be a resource you can access in the future (so give it a star)!
 
-Sound good? **[Register for this free event!](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/)**
+~~Sound good? **[Register for this free event!](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/)**~~ **As of Feb 29, we're sold out! We will open a waitlist soon - please check back!**
+
 
 ## Table of Contents
 1. [What You'll Learn](#-what-youll-learn)
