@@ -30,15 +30,15 @@ So far, we've created a new endpoint that returns course data and we've also mod
 
 Your task is to:
 
-1. create a new component called `Dropdown.js` and render it in `Discussion.js` (above the heatmap)
-    * In `Dropdown.js`, fetch from `/getCourses` endpoint, **filter down to just accessible courses**, and add each course *name* as an `<option>` within a `<select>` tag
-1. in `Discussion.js` add our selected course id to the state
+1. **create a new component called `Dropdown.js` and render it in `Discussion.js` (above the heatmap)**
+    * In `Dropdown.js`, fetch from `/getCourses` endpoint, *filter down to just accessible courses*, and add each course *name* as an `<option>` within a `<select>` tag
+1. **in `Discussion.js` add our selected course id to the state**
     * `const [selected, setSelected] = useState(null)`
     * when building out our URL for `/getDiscussions`, pass `selected` in our URL ex. `http://localhost:4001/getDiscussions/${selected}` (look familiar?)
-1. pass setSelected to `Dropdown.js` as a prop
+1. **pass setSelected to `Dropdown.js` as a prop**
     * `<Dropdown handleSelect={setSelected} />` (in this case referred to as handleSelect)
     * in `Dropdown.js` when we select a new course in our dropdown, we want to call `handleSelect` with the selected course id
-1. make a loading state
+1. **make a loading state**
     * add `loaded` to the state in `Discussion.js` (boolean)
     * make the necessary changes so that loaded is `true` once getDiscussions returns and `false` otherwise
     * replace `<Heatmap timestamps={timestamps} />` in render with: `{loaded ? <Heatmap timestamps={timestamps} /> : <div>Loading ...</div>}`
