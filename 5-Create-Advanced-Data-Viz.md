@@ -43,8 +43,8 @@ Don't want to build new features for the heatmap? That's okay!
 TODO: Any more data?
 
 #### Intermediate
-* Create a degree planning tool that shows students what courses they are eligible to register for, given a list of courses in Canvas students have completed and the [degree requirements data (CSV)](TODO: LINK)
-* Create a tool that allows you to compare courses that share the same information from a selected field using [course calendar data (CSV)](TODO: Link)
+* Create a degree planning tool that shows students what courses they are eligible to register for, given a list of courses in Canvas students have completed and the [degree requirements data (CSV)](TODO: LINK).
+* Create a tool that allows you to compare courses that share the same information from a selected field using [course calendar data (CSV)](TODO: Link).
 * Determine the courses with no prerequisites or only 1 prerequisite using the [degree requirements data (CSV)](TODO: LINK).
 * Choose any course from the course calendar and display information about that course using the [course calendar data (CSV)](TODO: Link) and [degree requirements data (CSV)](TODO: LINK).
 
