@@ -1,12 +1,12 @@
 ## Under active development
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Hello future hackathon attendee! Thanks for dropping by a little early. This repo is still being developed. If you fork the repo before the day of the event (March 14th), you will likely need to [sync your fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) so you have the latest copy.
 
 Feel free to poke around! And if you spot typos, please [open an issue](https://github.com/UBC-LA-Hackathon/student-dashboard/issues/new) or [a pull request](https://github.com/UBC-LA-Hackathon/student-dashboard/compare).
 
-Sign up for the hackathon [here](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already.
+[Sign up for the hackathon](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already. **As of March 2nd, we have a handful of spots due to cancellations! We will also be opening a waitlist as soon as we're sold out**
 
 See you all on March 13/14!
 
@@ -20,7 +20,7 @@ We will also provide other data sources that you are welcome to integrate to bui
 
 Due to the compressed nature of this workshopathon, we'll be covering a lot of ground in not a lot of time. You don't need to fully understand everything. There are lots of links to external readings and tutorials within [Tasks](#-tasks) that you're welcome to explore. And remember that this repo will always be a resource you can access in the future (so give it a star)!
 
-Sound good? **[Register for this free event!](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/)**
+[Sign up for the hackathon](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already. **As of March 2nd, we have a handful of spots due to cancellations! We will also be opening a waitlist as soon as we're sold out**
 
 ## Table of Contents
 1. [What You'll Learn](#-what-youll-learn)
@@ -46,10 +46,12 @@ By completing this workshopathon, you'll learn to:
 * build a [modern web application](https://bravoka.io/articles/modern-web-application-frameworks/)
 
 ## 🔨 What You'll Build
+👉 **[Live demo](https://student-dashboard.netlify.com/)**
+
 You'll be building a web application that displays a [heatmap](https://en.wikipedia.org/wiki/Heat_map) of what days of the week and what time of the day you and your peers (and your instructor) are most actively posting in the discussion forum of a course.
 
 It should look something like this:
-![heatmap](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/_assets/heatmap.png)
+![heatmap](/_assets/heatmap.png)
 
 After you've completed the heatmap, you can either add more [features to the heatmap](5-Create-Advanced-Data-Viz.md#give-me-ideas) or use the [tons of data we provide](5-Create-Advanced-Data-Viz.md#give-me-data) to build entirely new tools and visualizations.
 
@@ -144,9 +146,10 @@ These three entities run independently but communicate with one another by excha
 1. [Create API endpoints in backend](2-API-Endpoints.md)
 1. [Make API calls from frontend to frontend](3-Make-API-Calls.md)
 1. [Create data visualization dashboard](4-Create-Data-Viz-Dashboard.md)
-1. [Create more advanced data visualizations/tools](5-Create-Advanced-Data-Viz.md)
-1. [Share your work](6-Share-Your-Work.md)
-1. [Feedback and thanks](7-Feedback-And-Thanks.md)
+1. [Create a dropdown to switch between classes](5-Create-Course-Dropdown.md)
+1. [Create more advanced data visualizations/tools](6-Create-Advanced-Data-Viz.md)
+1. [Share your work](7-Share-Your-Work.md)
+1. [Feedback and thanks](8-Feedback-And-Thanks.md)
 
 ## Project Showcase
 At the end of the workshopathon, you can [put a link to your work here](6-Share-Your-Work.md#share-your-work)!
@@ -174,13 +177,13 @@ And another big thank you to our volunteers and contributors.
     <td align="center"><a href="https://github.com/sanamsh"><img src="https://avatars3.githubusercontent.com/u/35384641?v=4" width="100px;" alt=""/><br /><sub><b>sanamsh</b></sub></a><br /><a href="#ideas-sanamsh" title="Ideas, Planning, & Feedback">🤔</a> <a href="#eventOrganizing-sanamsh" title="Event Organizing">📋</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/qhuo"><img src="https://avatars3.githubusercontent.com/u/838643?v=4" width="100px;" alt=""/><br /><sub><b>qhuo</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=qhuo" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/vDeo"><img src="https://avatars3.githubusercontent.com/u/3041474?v=4" width="100px;" alt=""/><br /><sub><b>Vineet Deo</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=vDeo" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/jsondoo"><img src="https://avatars1.githubusercontent.com/u/21695878?v=4" width="100px;" alt=""/><br /><sub><b>Jason Doo</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=jsondoo" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Crymzix"><img src="https://avatars3.githubusercontent.com/u/4514591?v=4" width="100px;" alt=""/><br /><sub><b>Chris Li</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=Crymzix" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/jordancoblin"><img src="https://avatars1.githubusercontent.com/u/7538750?v=4" width="100px;" alt=""/><br /><sub><b>jcoblin</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=jordancoblin" title="Code">💻</a></td>
     <td align="center"><a href="http://riacarmin.com/"><img src="https://avatars2.githubusercontent.com/u/5331992?v=4" width="100px;" alt=""/><br /><sub><b>Ria Nicole Carmin</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=AkimaLunar" title="Code">💻</a></td>
     <td align="center"><a href="https://shirleyyin.com"><img src="https://avatars0.githubusercontent.com/u/2703742?v=4" width="100px;" alt=""/><br /><sub><b>Shirley Yin</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=syin" title="Code">💻</a></td>
+    <td align="center"><a href="http://qhou.github.io"><img src="https://avatars3.githubusercontent.com/u/17342319?v=4" width="100px;" alt=""/><br /><sub><b>Quinn Hou</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=qhou" title="Code">💻</a></td>
   </tr>
 </table>
 

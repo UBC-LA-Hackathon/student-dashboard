@@ -56,4 +56,4 @@ TODO: Any more data?
 * Determine the walking distance between courses in your schedule using the [course calendar data (CSV)](TODO: LINK).
 
 ## Next step
-Now you're ready to go to [Step 6: Share Your Work.](6-Share-Your-Work.md)
+Now you're ready to go to [Step 7: Share Your Work.](7-Share-Your-Work.md)

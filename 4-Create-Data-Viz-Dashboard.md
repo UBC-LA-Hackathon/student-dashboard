@@ -44,10 +44,5 @@ We then convert the timestamp data into a count of how many fall within the same
 So there you have it. A working web application. But we're not done just yet!
 
 ## Next step
-How much time do you have left?
+Now you're ready to go to [Step 5: Create a dropdown to switch between classes.](5-Create-Course-Dropdown.md)
 
-### Lots?
-Then you're ready to go to [Step 5. Create more advanced data visualizations/tools.](5-Create-Advanced-Data-Viz.md)
-
-### Little?
-Then you should go to [Step 6. Share your work.](6-Share-Your-Work.md)
