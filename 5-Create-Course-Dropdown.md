@@ -15,7 +15,7 @@ Time to put those skills from [Step 2](2-API-Endpoints.md) to use. In `server.js
 
 What about our `/getDiscussions` endpoint? Currently, hitting that endpoint will return  discussion data for the *same* course each time (whereas we want to be able to specify *any* course id). Luckly, Express has a feature called [route parameters](https://expressjs.com/en/guide/routing.html#route-parameters) that can help. Consider the following:
 
-```javscript
+```javascript
 app.get('/getDiscussions/:id', (req, res)  => {
   const courseID = req.params.id
   // what should I do now?
