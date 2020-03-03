@@ -16,7 +16,7 @@ Welcome to the [7th UBC Learning Analytics hackathon](https://learninganalytics.
 
 This repo contains the basic backend and frontend components of the Student Dashboard application you will be building. By the end of this workshopathon, you should have a working web application that displays your own Canvas data using the Canvas API.
 
-We will also provide other data sources that you are welcome to integrate to build [more advanced tools and visualizations](5-Create-Advanced-Data-Viz.md).
+We will also provide other data sources that you are welcome to integrate to build [more advanced tools and visualizations](6-Create-Advanced-Data-Viz.md).
 
 Due to the compressed nature of this workshopathon, we'll be covering a lot of ground in not a lot of time. You don't need to fully understand everything. There are lots of links to external readings and tutorials within [Tasks](#-tasks) that you're welcome to explore. And remember that this repo will always be a resource you can access in the future (so give it a star)!
 
@@ -53,7 +53,7 @@ You'll be building a web application that displays a [heatmap](https://en.wikipe
 It should look something like this:
 ![heatmap](/_assets/heatmap.png)
 
-After you've completed the heatmap, you can either add more [features to the heatmap](5-Create-Advanced-Data-Viz.md#give-me-ideas) or use the [tons of data we provide](5-Create-Advanced-Data-Viz.md#give-me-data) to build entirely new tools and visualizations.
+After you've completed the heatmap, you can either add more [features to the heatmap](6-Create-Advanced-Data-Viz.md#give-me-ideas) or use the [tons of data we provide](6-Create-Advanced-Data-Viz.md#give-me-data) to build entirely new tools and visualizations.
 
 ## 🤔 Ask For Help
 We don't expect you to come into the workshopathon with any prior knowledge. You may never have coded before - that's okay! You're here to learn, and we're here to help.
