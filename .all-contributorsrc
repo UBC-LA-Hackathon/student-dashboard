@@ -1,0 +1,159 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "markoprodanovic",
+      "name": "Marko Prodanovic",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22332030?v=4",
+      "profile": "https://github.com/markoprodanovic",
+      "contributions": [
+        "doc",
+        "ideas",
+        "code",
+        "eventOrganizing",
+        "review"
+      ]
+    },
+    {
+      "login": "justin0022",
+      "name": "Justin Lee",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8836578?v=4",
+      "profile": "https://github.com/justin0022",
+      "contributions": [
+        "doc",
+        "ideas",
+        "code",
+        "eventOrganizing",
+        "review"
+      ]
+    },
+    {
+      "login": "alisonmyers",
+      "name": "alisonmyers",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22600917?v=4",
+      "profile": "https://github.com/alisonmyers",
+      "contributions": [
+        "doc",
+        "ideas",
+        "eventOrganizing",
+        "review"
+      ]
+    },
+    {
+      "login": "craigdsthompson",
+      "name": "Craig Thompson",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6002755?v=4",
+      "profile": "https://github.com/craigdsthompson",
+      "contributions": [
+        "doc",
+        "ideas",
+        "code",
+        "eventOrganizing",
+        "review"
+      ]
+    },
+    {
+      "login": "stoosepp",
+      "name": "Stoo Sepp",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5882178?v=4",
+      "profile": "http://www.stoosepp.com",
+      "contributions": [
+        "ideas",
+        "eventOrganizing"
+      ]
+    },
+    {
+      "login": "willengle",
+      "name": "willengle",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9556551?v=4",
+      "profile": "https://github.com/willengle",
+      "contributions": [
+        "ideas",
+        "eventOrganizing"
+      ]
+    },
+    {
+      "login": "sanamsh",
+      "name": "sanamsh",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/35384641?v=4",
+      "profile": "https://github.com/sanamsh",
+      "contributions": [
+        "ideas",
+        "eventOrganizing"
+      ]
+    },
+    {
+      "login": "vDeo",
+      "name": "Vineet Deo",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3041474?v=4",
+      "profile": "https://github.com/vDeo",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jsondoo",
+      "name": "Jason Doo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/21695878?v=4",
+      "profile": "https://github.com/jsondoo",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Crymzix",
+      "name": "Chris Li",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4514591?v=4",
+      "profile": "https://github.com/Crymzix",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jordancoblin",
+      "name": "jcoblin",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7538750?v=4",
+      "profile": "https://github.com/jordancoblin",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AkimaLunar",
+      "name": "Ria Nicole Carmin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5331992?v=4",
+      "profile": "http://riacarmin.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "syin",
+      "name": "Shirley Yin",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2703742?v=4",
+      "profile": "https://shirleyyin.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "qhou",
+      "name": "Quinn Hou",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17342319?v=4",
+      "profile": "http://qhou.github.io",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "student-dashboard",
+  "projectOwner": "UBC-LA-Hackathon",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

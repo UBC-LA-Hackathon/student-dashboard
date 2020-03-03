@@ -1,19 +1,13 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+import Welcome from './components/Welcome'
 import Discussion from './components/Discussion'
 import './App.css'
 
 function App () {
-  const [self, setSelf] = useState('attendee')
-  const [discussion, setDiscussion] = useState([])
-
-  // add useEffect here for self
-
-  // add useEffect here for discussion
-
   return (
     <div className='App'>
-      <p>Welcome to the Workshopathon, {self}!</p>
-      <Discussion data={discussion} />
+      <Welcome />
+      <Discussion />
     </div>
   )
 }

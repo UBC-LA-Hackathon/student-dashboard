@@ -1,3 +1,17 @@
+## Under active development
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+Hello future hackathon attendee! Thanks for dropping by a little early. This repo is still being developed. If you fork the repo before the day of the event (March 14th), you will likely need to [sync your fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) so you have the latest copy.
+
+Feel free to poke around! And if you spot typos, please [open an issue](https://github.com/UBC-LA-Hackathon/student-dashboard/issues/new) or [a pull request](https://github.com/UBC-LA-Hackathon/student-dashboard/compare).
+
+[Sign up for the hackathon](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already. **As of March 2nd, we have a handful of spots due to cancellations! We will also be opening a waitlist as soon as we're sold out**
+
+See you all on March 13/14!
+
+------
+
 Welcome to the [7th UBC Learning Analytics hackathon](https://learninganalytics.ubc.ca/for-students/hackathons/)! This hackathon is really a workshop, so we're going to be referring to it as a `workshopathon` from here on out.
 
 This repo contains the basic backend and frontend components of the Student Dashboard application you will be building. By the end of this workshopathon, you should have a working web application that displays your own Canvas data using the Canvas API.
@@ -5,6 +19,8 @@ This repo contains the basic backend and frontend components of the Student Dash
 We will also provide other data sources that you are welcome to integrate to build [more advanced tools and visualizations](5-Create-Advanced-Data-Viz.md).
 
 Due to the compressed nature of this workshopathon, we'll be covering a lot of ground in not a lot of time. You don't need to fully understand everything. There are lots of links to external readings and tutorials within [Tasks](#-tasks) that you're welcome to explore. And remember that this repo will always be a resource you can access in the future (so give it a star)!
+
+[Sign up for the hackathon](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already. **As of March 2nd, we have a handful of spots due to cancellations! We will also be opening a waitlist as soon as we're sold out**
 
 ## Table of Contents
 1. [What You'll Learn](#-what-youll-learn)
@@ -16,7 +32,7 @@ Due to the compressed nature of this workshopathon, we'll be covering a lot of g
 1. [Tasks](#-tasks)
 1. [Project Showcase](#project-showcase)
 1. [Organizers](#organizers)
-1. [Volunteers](#volunteers)
+1. [Contributors](#contributors-)
 
 ## 📚 What You'll Learn
 By completing this workshopathon, you'll learn to:
@@ -27,13 +43,15 @@ By completing this workshopathon, you'll learn to:
 * [clean data](https://www.sisense.com/glossary/data-cleaning/)
 * build your own [API endpoints](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
 * use [React](https://reactjs.org/) to build [frontend components](https://reactjs.org/docs/components-and-props.html)
-* build a [modern web application](https://reactjs.org/docs/components-and-props.html)
+* build a [modern web application](https://bravoka.io/articles/modern-web-application-frameworks/)
 
 ## 🔨 What You'll Build
+👉 **[Live demo](https://student-dashboard.netlify.com/)**
+
 You'll be building a web application that displays a [heatmap](https://en.wikipedia.org/wiki/Heat_map) of what days of the week and what time of the day you and your peers (and your instructor) are most actively posting in the discussion forum of a course.
 
 It should look something like this:
-![heatmap](https://github.com/UBC-LA-Hackathon/student-dashboard/blob/master/_assets/heatmap.png)
+![heatmap](/_assets/heatmap.png)
 
 After you've completed the heatmap, you can either add more [features to the heatmap](5-Create-Advanced-Data-Viz.md#give-me-ideas) or use the [tons of data we provide](5-Create-Advanced-Data-Viz.md#give-me-data) to build entirely new tools and visualizations.
 
@@ -93,7 +111,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Dependencies
 #### Backend
 * [nodejs](https://nodejs.org/en/) - JavaScript runtime.
-* [expressjs](https://expressjs.com/) - The server for building API endpoints, making calls to Canvas API, and reading/sending data.
+* [expressjs](https://expressjs.com/) - A framework for building our server's API endpoints.
 * [cors](https://expressjs.com/en/resources/middleware/cors.html) - A middleware to enable [Cross-Origin Resource Sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing).
 * [node-canvas-api](https://github.com/ubccapico/node-canvas-api) - Easy way to make calls to Canvas API using JavaScript.
 * [neat-csv](https://github.com/sindresorhus/neat-csv) - Simple way to read CSV files.
@@ -104,24 +122,35 @@ These instructions will get you a copy of the project up and running on your loc
 * [D3.js](https://d3js.org/) - The de facto way to build data visualizations on the web, somewhat painfully.
 
 ### Application Structure
+
+![stack-diagram](./_assets/stack-diagram.png)
+Our web application will involve three autonomous entities (two of which we build):
+* a **frontend** React application
+* a **backend** Node.js/Express application
+* the **Canvas  API** (accessed through node-canvas-api)
+
+These three entities run independently but communicate with one another by exchanging data via API endpoints. Our Node backend will be responsible for querying the Canvas API, processing the data returned, and hosting that data at API endpoints (that we create) for our frontend application to read and render to the browser.
+
 #### Backend
 * [`server.js`](./backend/server.js) - The entry point into our backend code. It starts the express server and is responsible for handling requests the frontend makes, making requests to the Canvas API, and reading/sending data to the frontend.
 * [`canvasDiscussions.js`](./backend/canvasDiscussions.js) - Exports two functions, `getDiscussions` and `flattenTopicAndReplies`. The first takes as input a Canvas course id and pulls discussions from that course in a way that preserves the threaded nature of replies to discussion topics. The second flattens the topics and replies to make it easier for generating the heatmap.
 * [`readCSV.js`](./backend/readCSV.js) - Simple utility for reading CSVs painlessly. Takes as input the path to the CSV.
 
 #### Frontend
-* [`App.js`](./frontend/src/App.js) - The top-level React component that is responsible for fetching data and passing data down to child React components.
-* [`Discussion.js`](./frontend/src/components/Discussion.js) - `Discussion` modifies the data passed by `App` and passes it down to the child `Heatmap`.
+* [`App.js`](./frontend/src/App.js) - The top-level React component that is responsible for rendering the `Discussion` and `Heatmap` components.
+* [`Discussion.js`](./frontend/src/components/Discussion.js) - `Discussion` fetches discussion data, cleans it, and passes it down to the child component `Heatmap`.
 * [`Heatmap.js`](./frontend/src/components/Heatmap.js) - Renders the heatmap using [D3.js](https://d3js.org/).
+* [`Welcome.js`](./frontend/src/components/Welcome.js) - Renders a simple welcome message with the Canvas user's name, if available.
 
 ## ✅ Tasks
 1. [Create a Canvas API token and make calls to the Canvas API](1-Canvas-API-Token.md)
 1. [Create API endpoints in backend](2-API-Endpoints.md)
 1. [Make API calls from frontend to frontend](3-Make-API-Calls.md)
 1. [Create data visualization dashboard](4-Create-Data-Viz-Dashboard.md)
-1. [Create more advanced data visualizations/tools](5-Create-Advanced-Data-Viz.md)
-1. [Share your work](6-Share-Your-Work.md)
-1. [Feedback and thanks](7-Feedback-And-Thanks.md)
+1. [Create a dropdown to switch between classes](5-Create-Course-Dropdown.md)
+1. [Create more advanced data visualizations/tools](6-Create-Advanced-Data-Viz.md)
+1. [Share your work](7-Share-Your-Work.md)
+1. [Feedback and thanks](8-Feedback-And-Thanks.md)
 
 ## Project Showcase
 At the end of the workshopathon, you can [put a link to your work here](6-Share-Your-Work.md#share-your-work)!
@@ -131,6 +160,36 @@ This hackathon is a collaborative effort by the [UBC Learning Analytics](https:/
 
 A big thank you to [Sauder Learning Labs](https://www.sauder.ubc.ca/about-ubc-sauder/learning-services/learning-labs) for providing a space designed to facilitate teams in using critical thinking and analytical decision making to solve real-world problems.
 
-## Volunteers
-And another big thank you to our volunteers from outside of UBC.
-TODO: Add list of volunteers
+## Contributors ✨
+
+And another big thank you to our volunteers and contributors.
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/markoprodanovic"><img src="https://avatars3.githubusercontent.com/u/22332030?v=4" width="100px;" alt=""/><br /><sub><b>Marko Prodanovic</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=markoprodanovic" title="Documentation">📖</a> <a href="#ideas-markoprodanovic" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=markoprodanovic" title="Code">💻</a> <a href="#eventOrganizing-markoprodanovic" title="Event Organizing">📋</a> <a href="https://github.com/UBC-LA-Hackathon/student-dashboard/pulls?q=is%3Apr+reviewed-by%3Amarkoprodanovic" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/justin0022"><img src="https://avatars2.githubusercontent.com/u/8836578?v=4" width="100px;" alt=""/><br /><sub><b>Justin Lee</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=justin0022" title="Documentation">📖</a> <a href="#ideas-justin0022" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=justin0022" title="Code">💻</a> <a href="#eventOrganizing-justin0022" title="Event Organizing">📋</a> <a href="https://github.com/UBC-LA-Hackathon/student-dashboard/pulls?q=is%3Apr+reviewed-by%3Ajustin0022" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/alisonmyers"><img src="https://avatars3.githubusercontent.com/u/22600917?v=4" width="100px;" alt=""/><br /><sub><b>alisonmyers</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=alisonmyers" title="Documentation">📖</a> <a href="#ideas-alisonmyers" title="Ideas, Planning, & Feedback">🤔</a> <a href="#eventOrganizing-alisonmyers" title="Event Organizing">📋</a> <a href="https://github.com/UBC-LA-Hackathon/student-dashboard/pulls?q=is%3Apr+reviewed-by%3Aalisonmyers" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/craigdsthompson"><img src="https://avatars0.githubusercontent.com/u/6002755?v=4" width="100px;" alt=""/><br /><sub><b>Craig Thompson</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=craigdsthompson" title="Documentation">📖</a> <a href="#ideas-craigdsthompson" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=craigdsthompson" title="Code">💻</a> <a href="#eventOrganizing-craigdsthompson" title="Event Organizing">📋</a> <a href="https://github.com/UBC-LA-Hackathon/student-dashboard/pulls?q=is%3Apr+reviewed-by%3Acraigdsthompson" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="http://www.stoosepp.com"><img src="https://avatars1.githubusercontent.com/u/5882178?v=4" width="100px;" alt=""/><br /><sub><b>Stoo Sepp</b></sub></a><br /><a href="#ideas-stoosepp" title="Ideas, Planning, & Feedback">🤔</a> <a href="#eventOrganizing-stoosepp" title="Event Organizing">📋</a></td>
+    <td align="center"><a href="https://github.com/willengle"><img src="https://avatars2.githubusercontent.com/u/9556551?v=4" width="100px;" alt=""/><br /><sub><b>willengle</b></sub></a><br /><a href="#ideas-willengle" title="Ideas, Planning, & Feedback">🤔</a> <a href="#eventOrganizing-willengle" title="Event Organizing">📋</a></td>
+    <td align="center"><a href="https://github.com/sanamsh"><img src="https://avatars3.githubusercontent.com/u/35384641?v=4" width="100px;" alt=""/><br /><sub><b>sanamsh</b></sub></a><br /><a href="#ideas-sanamsh" title="Ideas, Planning, & Feedback">🤔</a> <a href="#eventOrganizing-sanamsh" title="Event Organizing">📋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/vDeo"><img src="https://avatars3.githubusercontent.com/u/3041474?v=4" width="100px;" alt=""/><br /><sub><b>Vineet Deo</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=vDeo" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jsondoo"><img src="https://avatars1.githubusercontent.com/u/21695878?v=4" width="100px;" alt=""/><br /><sub><b>Jason Doo</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=jsondoo" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Crymzix"><img src="https://avatars3.githubusercontent.com/u/4514591?v=4" width="100px;" alt=""/><br /><sub><b>Chris Li</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=Crymzix" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jordancoblin"><img src="https://avatars1.githubusercontent.com/u/7538750?v=4" width="100px;" alt=""/><br /><sub><b>jcoblin</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=jordancoblin" title="Code">💻</a></td>
+    <td align="center"><a href="http://riacarmin.com/"><img src="https://avatars2.githubusercontent.com/u/5331992?v=4" width="100px;" alt=""/><br /><sub><b>Ria Nicole Carmin</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=AkimaLunar" title="Code">💻</a></td>
+    <td align="center"><a href="https://shirleyyin.com"><img src="https://avatars0.githubusercontent.com/u/2703742?v=4" width="100px;" alt=""/><br /><sub><b>Shirley Yin</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=syin" title="Code">💻</a></td>
+    <td align="center"><a href="http://qhou.github.io"><img src="https://avatars3.githubusercontent.com/u/17342319?v=4" width="100px;" alt=""/><br /><sub><b>Quinn Hou</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=qhou" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

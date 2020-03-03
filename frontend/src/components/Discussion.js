@@ -1,17 +1,20 @@
 import React, { useState, useEffect } from 'react'
 import Heatmap from './Heatmap'
 
-function Discussion ({ data }) {
+function Discussion () {
+  const [discussion, setDiscussion] = useState([])
   const [timestamps, setTimestamps] = useState([])
 
+  // add useEffect here for discussion
+
   useEffect(() => {
-    if (data.length > 0) {
-      const discussionTimestamps = data
+    if (discussion.length > 0) {
+      const discussionTimestamps = discussion
         .map(discussion => discussion.timestamp)
 
       setTimestamps(discussionTimestamps)
     }
-  }, [data])
+  }, [discussion])
 
   return (
     <Heatmap timestamps={timestamps} />
