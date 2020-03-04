@@ -64,8 +64,8 @@ And if you're already comfortable with some of the technology we're using, pleas
 
 ## 📅 Schedule
 ### Friday, March 13
-* 5:00pm - Design Thinking Workshop
-* 6:30pm - Social (pizza and pop)
+* 5:00pm - Design Thinking Workshop.
+* 6:30pm - Social (pizza and pop).
 
 ### Saturday, March 14
 * 9:30am - Doors Open (coffee and pastries).
