@@ -22,20 +22,20 @@ You can use [`readCSV.js`](./backend/readCSV.js) to read the CSVs into the serve
 Let's create some additional features for the heatmap.
 
 #### Intermediate
-* Change color scheme of heatmap.
-* Add a legend to the heatmap showing how many posts each shade of blue represents.
-* Implement caching so that data for a course that is already fetched is not refetched unnecessarily. 
-* When a cell in the heatmap is hovered, display a count of the number of posts.
+* [Change color scheme of heatmap.](./_ideas/heatmap/intermediate/change-colour.md)
+* [Add a legend to the heatmap showing how many posts each shade of blue represents.](./_ideas/heatmap/intermediate/add-legend.md)
+* [Implement caching so that data for a course that is already fetched is not refetched unnecessarily.](./_ideas/heatmap/intermediate/implement-caching.md)
+* [When a cell in the heatmap is hovered, display a count of the number of posts.](./_ideas/heatmap/intermediate/cell-hover-count.md)
+* [Create a date range selector that will filter the data so that the heatmap displays only the data that fits within the specified date range.](./_ideas/heatmap/intermediate/date-range.md)
+* [Aggregate discussion from all of your courses instead of one course.](./_ideas/heatmap/intermediate/aggregate-discussions.md)
 * Display the discussion data using a bar chart or bubble chart instead of a heatmap.
-* Create a date range selector that will filter the data so that the heatmap displays only the data that fits within the specified date range.
-* Aggregate discussion from all of your courses instead of one course.
 * Create a way to show switch between showing just TA/Instructor posts and all posts.
 
 #### Advanced
-* When a cell in the heatmap is hovered or clicked, show the discussions that were posted at that date and time.
-* Create a calendar view so that it is possible to navigate between weeks/months.
-* Create a filter that allows users to select a specific individual to see when they post.
-* Run text/sentiment analysis on the discussion posts and use this data to create a heatmap.
+1. When a cell in the heatmap is hovered or clicked, show the discussions that were posted at that date and time.
+1. Create a calendar view so that it is possible to navigate between weeks/months.
+1. Create a filter that allows users to select a specific individual to see when they post.
+1. Run text/sentiment analysis on the discussion posts and use this data to create a heatmap.
 
 ### Create something new
 Don't want to build new features for the heatmap? That's okay!
