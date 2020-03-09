@@ -4,16 +4,16 @@
 Aggregate discussion from all of your courses instead of one course.
 
 ## Overview
-Right now you've hard-coded your Canvas course id in [server](../../../backend/server.js) in the call to `getDiscussions`. Instead of hard-coding this course id, we'll use [`getCoursesByUser`](https://github.com/ubccapico/node-canvas-api/blob/master/src/getCoursesByUser.js) to retrieve all of the Canvas courses you have access to. `getCoursesByUser` takes as input a Canvas user id, which you can hard-code or be extra fancy about and call `getSelf` to retrieve (this is up to you). 
+We'll use [`getCoursesByUser`](https://github.com/ubccapico/node-canvas-api/blob/master/src/getCoursesByUser.js) to retrieve all of the Canvas courses you have access to. `getCoursesByUser` takes as input a Canvas user id, which you can hard-code or be extra fancy about and call `getSelf` to retrieve (this is up to you).
 
 ## Steps
 1. Retrieve or hard-code your Canvas user id.
-1. Call `getCoursesByUser` with your Canvas user id. 
+1. Call `getCoursesByUser` with your Canvas user id.
 1. Extract the course ids from the response.
 1. Now you should have an array of course ids. For every course id, you have to call `getDiscussion`.
     * Hint: I would recommend using [`Promise.all`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all).
 1. Once the discussions for every course is gathered, call `flattenTopicAndReplies` on every course discussion.
-1. Then flatten everything. This is confusing, so here's some pseudocode that may explain. 
+1. Then flatten everything. This is confusing, so here's some pseudocode that may explain.
     ```js
       const courseIds = [1234, 5678, 9012]
       // then call getDiscussion on every course id
@@ -30,7 +30,7 @@ Right now you've hard-coded your Canvas course id in [server](../../../backend/s
       ]
       // then call flatten
       const flattened = [
-        /* 
+        /*
         look it's just one array now, instead of an array of arrays,
         which is what the frontend expects
         */
