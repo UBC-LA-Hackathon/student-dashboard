@@ -1,7 +1,0 @@
-## Data
-
-## Task
-
-## Overview
-
-## Steps
