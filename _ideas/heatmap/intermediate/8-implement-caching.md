@@ -22,6 +22,6 @@ Adding caching to our application will make visible performance improvements. Cu
     const [loaded, discussionData] = useFetchData(discussionDataURL)
     ```
 
-    In the example above we're also returning a boolean to indicate whether or not data has loaded. Use the returned values `loaded` and `discussion` where desired/necessary in `Discussion`.
+    In the example above we're also returning a boolean to indicate whether or not data has loaded. Use the returned values `loaded` and `discussion` where desired/necessary in [Discussion](../../../frontend/src/components/Discussion.js).
 
 1. Implement caching behaviour in `useEffect` within `useFetchData.js`. You may find Javascript's [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) useful for storing cache data. You want `useEffect` to run each time a new URL is handed to `useFetchData`, then check your cache data structure for data matching that URL, return that data if found, otherwise make a request to that URL and store it in the cache for future use.
