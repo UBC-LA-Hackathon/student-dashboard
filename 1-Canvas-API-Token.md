@@ -28,8 +28,7 @@
 > Never share your token with anyone. If you think your token may have been exposed (for example, by accidentally posting it to GitHub), delete your token from Canvas right away. Instructions for creating and deleting access tokens as a student are [available on the Canvas Guides](https://community.canvaslms.com/docs/DOC-16005-42121018197).
 
 ## Start the server
-1. Navigate to the `backend` directory and run `npm install` to install the backend dependencies.
-1. Run `npm start` to start the server. If your server is already running, kill it first: `control + c`, then start the server.
+1. Type `npm start` into terminal in `backend` directory. If your server is already running, kill it first: `control + c`, then start the server. If you see any strange error messages, you might have forgotten to install dependencies using `npm install`.
 1. Navigate to http://localhost:4001/.
 
 You should see a `Hello World!` displayed.
