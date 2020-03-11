@@ -5,7 +5,7 @@
 1. [Next step](#next-step)
 
 ## Good work!
-Good for you on making it this far! Since you have a lot of time remaining, try to build something a little bit more complex. We've provided data and some ideas to get you started.
+Good for you on making it this far! Since you have a lot of time remaining, try to build something a little bit more complex. We've provided data and some ideas to get you started. Some of these ideas are linked with detailed instructions, and some you'll have to figure out on your own.
 
 ## Give me data!
 TODO: Add links to data
@@ -32,10 +32,10 @@ Let's create some additional features for the heatmap.
 * Create a way to show switch between showing just TA/Instructor posts and all posts.
 
 #### Advanced
-1. When a cell in the heatmap is hovered or clicked, show the discussions that were posted at that date and time.
-1. Create a calendar view so that it is possible to navigate between weeks/months.
-1. Create a filter that allows users to select a specific individual to see when they post.
-1. Run text/sentiment analysis on the discussion posts and use this data to create a heatmap.
+* When a cell in the heatmap is hovered or clicked, show the discussions that were posted at that date and time.
+* Create a calendar view so that it is possible to navigate between weeks/months.
+* Create a filter that allows users to select a specific individual to see when they post.
+* Run text/sentiment analysis on the discussion posts and use this data to create a heatmap.
 
 ### Create something new
 Don't want to build new features for the heatmap? That's okay!
