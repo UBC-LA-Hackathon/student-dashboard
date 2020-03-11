@@ -8,7 +8,7 @@
  COURSE_TITLE | The offered course title. | string | The course title is often shown as an abbreviation. 
  COURSE_DESCRIPTION | A description of the course. | string | Sometimes includes permission or other course requirements.
  FACULTY | The faculty that offers the course | string | *what is FACULTY = REGI (for EXCH)
- SUBJECT_CODE | The course subject code. | string | A combination of SUBJECT_CODE and  COURSE_NUMBER tells you which course this is. Can be further combined with the SECTION_NUMBER for individual course section. 
+ SUBJECT_CODE | The course subject code. | string | A combination of SUBJECT_CODE and  COURSE_NUMBER tells you which course this is. Can be further combined with the SECTION_NUMBER for individual course section. The archived courses by subject code can be found: http://www.calendar.ubc.ca/vancouver/courses.cfm?page=code 
  SECTION_TYPE | The course section type | string | The kind of section being offered.
  CREDITS | The number of credits obtained by successful completion of the course | number |
  PRE_REQUISITE_DESCRIPTIONS |  A description of requirements that must be completed before taking the course. | string | This field is not always consistently formatted.
