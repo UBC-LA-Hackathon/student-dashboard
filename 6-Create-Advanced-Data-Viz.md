@@ -12,7 +12,7 @@ Good for you on making it this far! Since you have a lot of time remaining, try 
 * [data](https://files.workspace.ubc.ca/MyDevice/s/570/67306f48-3077-42d5-a0ed-fb5ad5fb10d2): contains information about all the courses offered at UBC from 2014-2019.
 * [dictionary](./course-calendar-data-dictionary.md): contains details about what each column of the data represents.
 
-### Degree Requirements Data
+### Course Prerequisites Data
 * [data](https://files.workspace.ubc.ca/MyDevice/s/570/74488c9b-b723-4b34-bd4d-8f246c54f2eb): contains degree requirement data (co-reqs/pre-reqs, etc).
 * [dictionary](TODO: LINK): contains details about what each column of the data represents.
 
@@ -44,15 +44,15 @@ Let's create some additional features for the heatmap.
 Don't want to build new features for the heatmap? That's okay!
 
 #### Intermediate
-* Create a degree planning tool that shows students what courses they are eligible to register for, given a list of courses in Canvas students have completed and the [degree requirements data](#give-me-data).
+* Create a degree planning tool that shows students what courses they are eligible to register for, given a list of courses in Canvas students have completed and the [course prerequisites data](#give-me-data).
 * Create a tool that allows you to compare courses that share the same information from a selected field using [course calendar data](#give-me-data).
-* Determine the courses with no prerequisites or only 1 prerequisite using the [degree requirements data](#give-me-data).
-* Choose any course from the course calendar and display information about that course using the [course calendar data](#give-me-data) and [degree requirements data](#give-me-data).
+* Determine the courses with no prerequisites or only 1 prerequisite using the [course prerequisites data](#give-me-data).
+* Choose any course from the course calendar and display information about that course using the [course calendar data](#give-me-data) and [course prerequisites data](#give-me-data).
 
 #### Advanced
 * Create a visualization that shows building occupation by time using the [course calendar data](#give-me-data).
-* Determine the longest dependent course sequence, or the fastest route to a degree using the [degree requirements data](#give-me-data).
-* Create a tool that allows you to optimize your course schedule to complete a degree using the [degree requirements data](#give-me-data).
+* Determine the longest dependent course sequence, or the fastest route to a degree using the [course prerequisites data](#give-me-data).
+* Create a tool that allows you to optimize your course schedule to complete a degree using the [course prerequisites data](#give-me-data).
 * Determine the walking distance between courses in your schedule using the [course calendar data](#give-me-data).
 
 ## Next step
