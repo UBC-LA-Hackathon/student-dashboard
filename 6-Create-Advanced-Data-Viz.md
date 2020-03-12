@@ -5,11 +5,16 @@
 1. [Next step](#next-step)
 
 ## Good work!
-Good for you on making it this far! Since you have a lot of time remaining, try to build something a little bit more complex. We've provided data and some ideas to get you started. \
+Good for you on making it this far! Since you have a lot of time remaining, try to build something a little bit more complex. We've provided data and some ideas to get you started.
 
 ## Give me data!
-* [Course calendar data](https://files.workspace.ubc.ca/MyDevice/s/570/67306f48-3077-42d5-a0ed-fb5ad5fb10d2): contains information about all the courses offered at UBC from 2014-2019.
-* [Degree requirements data](https://files.workspace.ubc.ca/MyDevice/s/570/74488c9b-b723-4b34-bd4d-8f246c54f2eb): contains degree requirement data (co-reqs/pre-reqs, etc).
+### Course Calendar Data
+* [data](https://files.workspace.ubc.ca/MyDevice/s/570/67306f48-3077-42d5-a0ed-fb5ad5fb10d2): contains information about all the courses offered at UBC from 2014-2019.
+* [dictionary](./course-calendar-data-dictionary.md): contains details about what each column of the data represents.
+
+### Degree Requirements Data
+* [data](https://files.workspace.ubc.ca/MyDevice/s/570/74488c9b-b723-4b34-bd4d-8f246c54f2eb): contains degree requirement data (co-reqs/pre-reqs, etc).
+* [dictionary](TODO: LINK): contains details about what each column of the data represents.
 
 You can use [`readCSV.js`](./backend/readCSV.js) to read the CSVs into the server.
 
