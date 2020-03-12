@@ -5,7 +5,7 @@
 1. [Next step](#next-step)
 
 ## Good work!
-Good for you on making it this far! Since you have a lot of time remaining, try to build something a little bit more complex. We've provided data and some ideas to get you started. Some of these ideas are linked with detailed instructions, and some you'll have to figure out on your own.
+Good for you on making it this far! Since you have a lot of time remaining, try to build something a little bit more complex. We've provided data and some ideas to get you started. \
 
 ## Give me data!
 * [Course calendar data](https://files.workspace.ubc.ca/MyDevice/s/570/67306f48-3077-42d5-a0ed-fb5ad5fb10d2): contains information about all the courses offered at UBC from 2014-2019.
@@ -14,6 +14,8 @@ Good for you on making it this far! Since you have a lot of time remaining, try 
 You can use [`readCSV.js`](./backend/readCSV.js) to read the CSVs into the server.
 
 ## Give me ideas!
+Some of these ideas are linked with detailed instructions, and some you'll have to figure out on your own.
+
 ### Heatmap
 Let's create some additional features for the heatmap.
 
