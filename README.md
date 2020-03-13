@@ -21,6 +21,7 @@ Alison & Will (on behalf of the Hackathon Team)
 
 
 Alison Myers
+
 Research Analyst, UBC Sauder School of Business
 Learning Analytics, Visual Analytics (LAVA) @ UBC
 University of British Columbia | Vancouver Campus
@@ -28,6 +29,7 @@ alison.myers@sauder.ubc.ca
 
 
 Will Engle
+
 Strategist, Open Education Initiatives 
 Centre for Teaching, Learning & Technology
 The University of British Columbia | Vancouver Campus
