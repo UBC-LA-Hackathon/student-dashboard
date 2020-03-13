@@ -2,13 +2,29 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-Hello future hackathon attendee! Thanks for dropping by a little early. This repo is still being developed. If you fork the repo before the day of the event (March 14th), you will likely need to [sync your fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) so you have the latest copy.
-
-Feel free to poke around! And if you spot typos, please [open an issue](https://github.com/UBC-LA-Hackathon/student-dashboard/issues/new) or [a pull request](https://github.com/UBC-LA-Hackathon/student-dashboard/compare).
-
-~~[Sign up for the hackathon](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already.~~ **We are sold out. [Please sign up for the waitlist](https://events.ctlt.ubc.ca/2020-learning-analytics-hackathon/).**	
-
-See you all on March 13/14!
+Dear Learning Analytics Hackathon Registrant:
+ 
+Thank you for your interest and for registering for the UBC Learning Analytics Spring Hackathon. We apologize for the late notice but based upon the information provided by the Public Health Agency of Canada about organizing events and large gatherings, as well as the number of cancellations we have received in the last few days, we have decided to postpone the event to a later date. There will be NO workshop on Friday and NO hackathon on Saturday.
+ 
+All materials, including the GitHub repo as well as the Canvas course, will continue to be available online. The Hackathon will be rescheduled and we will contact you as soon as we have new dates confirmed. 
+ 
+Thank you again - we apologize again for any inconvenience caused by this late change. 
+ 
+Sincerely,
+ 
+Alison & Will (on behalf of the Hackathon Team)
+ 
+Alison Myers
+Research Analyst, UBC Sauder School of Business
+Learning Analytics, Visual Analytics (LAVA) @ UBC
+University of British Columbia | Vancouver Campus
+alison.myers@sauder.ubc.ca
+ 
+Will Engle
+Strategist, Open Education Initiatives 
+Centre for Teaching, Learning & Technology
+The University of British Columbia | Vancouver Campus
+will.engle@ubc.ca
 
 ------
 
@@ -18,9 +34,7 @@ This repo contains the basic backend and frontend components of the Student Dash
 
 We will also provide other data sources that you are welcome to integrate to build [more advanced tools and visualizations](6-Create-Advanced-Data-Viz.md).
 
-Due to the compressed nature of this workshopathon, we'll be covering a lot of ground in not a lot of time. You don't need to fully understand everything. There are lots of links to external readings and tutorials within [Tasks](#-tasks) that you're welcome to explore. And remember that this repo will always be a resource you can access in the future (so give it a star)!
-
-~~[Sign up for the hackathon](https://events.ctlt.ubc.ca/events/2020-spring-learning-analytics-hackathon/) if you haven't already.~~ **We are sold out. [Please sign up for the waitlist](https://events.ctlt.ubc.ca/2020-learning-analytics-hackathon/).**	
+Due to the compressed nature of this workshopathon, we'll be covering a lot of ground in not a lot of time. You don't need to fully understand everything. There are lots of links to external readings and tutorials within [Tasks](#-tasks) that you're welcome to explore. And remember that this repo will always be a resource you can access in the future (so give it a star!)
 
 ## Table of Contents
 1. [What You'll Learn](#-what-youll-learn)
