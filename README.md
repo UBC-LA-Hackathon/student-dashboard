@@ -5,21 +5,27 @@
 Dear Learning Analytics Hackathon Registrant:
  
 Thank you for your interest and for registering for the UBC Learning Analytics Spring Hackathon. We apologize for the late notice but based upon the information provided by the Public Health Agency of Canada about organizing events and large gatherings, as well as the number of cancellations we have received in the last few days, we have decided to postpone the event to a later date. There will be NO workshop on Friday and NO hackathon on Saturday.
- 
+
+
 All materials, including the GitHub repo as well as the Canvas course, will continue to be available online. The Hackathon will be rescheduled and we will contact you as soon as we have new dates confirmed. 
- 
+
+
 Thank you again - we apologize again for any inconvenience caused by this late change. 
- 
+
+
 Sincerely,
- 
+
+
 Alison & Will (on behalf of the Hackathon Team)
- 
+
+
 Alison Myers
 Research Analyst, UBC Sauder School of Business
 Learning Analytics, Visual Analytics (LAVA) @ UBC
 University of British Columbia | Vancouver Campus
 alison.myers@sauder.ubc.ca
- 
+
+
 Will Engle
 Strategist, Open Education Initiatives 
 Centre for Teaching, Learning & Technology
