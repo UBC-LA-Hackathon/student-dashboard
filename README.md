@@ -3,7 +3,8 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Dear Learning Analytics Hackathon Registrant:
- 
+
+
 Thank you for your interest and for registering for the UBC Learning Analytics Spring Hackathon. We apologize for the late notice but based upon the information provided by the Public Health Agency of Canada about organizing events and large gatherings, as well as the number of cancellations we have received in the last few days, we have decided to postpone the event to a later date. There will be NO workshop on Friday and NO hackathon on Saturday.
 
 
