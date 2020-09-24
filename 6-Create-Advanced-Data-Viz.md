@@ -19,7 +19,7 @@ Good for you on making it this far! Since you have a lot of time remaining, try 
 You can use [`readCSV.js`](./backend/readCSV.js) to read the CSVs into the server.
 
 ## Give me ideas!
-Some of these ideas are linked with detailed instructions, and some you'll have to figure out on your own.
+Some of these ideas are linked with detailed instructions, and some you'll have to figure out on your own :).
 
 ### Heatmap
 Let's create some additional features for the heatmap.
