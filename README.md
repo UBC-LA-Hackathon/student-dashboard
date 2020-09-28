@@ -53,18 +53,13 @@ There are many volunteers here with lots of software development experience who 
 And if you're already comfortable with some of the technology we're using, please help your neighbours!
 
 ## 📅 Schedule
-### Friday, March 13
-* 5:00pm - Design Thinking Workshop.
-* 6:30pm - Social (pizza and pop).
-
-### Saturday, March 14
-* 9:30am - Doors Open (coffee and pastries).
-* 10:00am - Introductions and Welcome to the Workshopathon! We'll give you an overview of the tasks and get you set up with this repository.
-* 10:15am - Start hacking!
-* 12:30pm - Lunch.
+### Saturday, October 24
+* 9:00am - Hackathon welcome and orientation - we'll give you an overview of the tasks and get you set up with this repository.
+* 9:20am - Start hacking! Solutions to each of the [Tasks](#-tasks) will be released at predetermined times.
+* 11:00am - Check-in.
 * 1:00pm - Check-in.
 * 3:00pm - Check-in.
-* 4:30pm - Demos!
+* 4:30pm - Optional: students who built some of the optional features in [Task 6](6-Create-Advanced-Data-Viz.md) can demo their work!
 * 5:30pm - End of Workshopathon.
 
 ## ⚙️ Getting Started
@@ -72,9 +67,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 1. **Install [Node 12.0.0 or greater](https://nodejs.org)**.
-2. **Install [Git](https://git-scm.com/downloads)**.
-2. **Install [Visual Studio Code](https://code.visualstudio.com/)** (optional but recommended).
-2. **Install [Brave](https://brave.com/) or [Firefox](https://www.mozilla.org/en-CA/firefox/), since [Chrome is spyware](https://www.washingtonpost.com/technology/2019/06/21/google-chrome-has-become-surveillance-software-its-time-switch/)** (optional but recommended; the volunteers are more familiar with using the devtools of Brave or Firefox).
+1. **Install [Git](https://git-scm.com/downloads)**.
+1. **Install [Latest Version of Zoom (5.3 or greater)](https://support.zoom.us/hc/en-us/articles/201362233-Upgrade-update-to-the-latest-version)** (required, since this will allow you to move freely between the various Zoom breakout rooms).
+1. **Install [Visual Studio Code](https://code.visualstudio.com/)** (optional but recommended).
+1. **Install [Brave](https://brave.com/) or [Firefox](https://www.mozilla.org/en-CA/firefox/), since [Chrome is spyware](https://www.washingtonpost.com/technology/2019/06/21/google-chrome-has-become-surveillance-software-its-time-switch/)** (optional but recommended; the volunteers are more familiar with using the devtools of Brave or Firefox).
 
 ### Installation and setup
 1. Fork this repo.
