@@ -1,35 +1,10 @@
-## This hackathon is rescheduled
+## Registration link for this virtual hackathon on October 24, 2020 is coming soon!
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-Dear Learning Analytics Hackathon Registrant:
 
-Thank you for your interest and for registering for the UBC Learning Analytics Spring Hackathon. We apologize for the late notice but based upon the information provided by the Public Health Agency of Canada about organizing events and large gatherings, as well as the number of cancellations we have received in the last few days, we have decided to postpone the event to a later date. There will be NO workshop on Friday and NO hackathon on Saturday.
-
-All materials, including the GitHub repo as well as the Canvas course, will continue to be available online. The Hackathon will be rescheduled and we will contact you as soon as we have new dates confirmed. 
-
-Thank you again - we apologize again for any inconvenience caused by this late change. 
-
-Sincerely,
-Alison & Will (on behalf of the Hackathon Team)
-
-Alison Myers
-
-Research Analyst, UBC Sauder School of Business
-Learning Analytics, Visual Analytics (LAVA) @ UBC
-University of British Columbia | Vancouver Campus
-alison.myers@sauder.ubc.ca
-
-Will Engle
-
-Strategist, Open Education Initiatives 
-Centre for Teaching, Learning & Technology
-The University of British Columbia | Vancouver Campus
-will.engle@ubc.ca
-
-------
-
-Welcome to the [7th UBC Learning Analytics hackathon](https://learninganalytics.ubc.ca/for-students/hackathons/)! This hackathon is really a workshop, so we're going to be referring to it as a `workshopathon` from here on out.
+Welcome to the [7th UBC Learning Analytics hackathon](https://learninganalytics.ubc.ca/for-students/hackathons/). Alhough the spring 2020 hackathon was cancelled due to COVID-19, the fall 2020 hackathon has gone fully virtual! This hackathon is really a workshop, so we're going to be referring to it as a `workshopathon` from here on out.
 
 This repo contains the basic backend and frontend components of the Student Dashboard application you will be building. By the end of this workshopathon, you should have a working web application that displays your own Canvas data using the Canvas API.
 
