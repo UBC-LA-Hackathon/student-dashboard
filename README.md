@@ -4,7 +4,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Welcome to the [7th UBC Learning Analytics hackathon](https://learninganalytics.ubc.ca/for-students/hackathons/). Alhough the spring 2020 hackathon was cancelled due to COVID-19, the fall 2020 hackathon has gone fully virtual! This hackathon is really a workshop, so we're going to be referring to it as a `workshopathon` from here on out.
+Welcome to the [7th UBC Learning Analytics hackathon](https://learninganalytics.ubc.ca/for-students/hackathons/). Although the spring 2020 hackathon was cancelled due to COVID-19, the fall 2020 hackathon has gone fully virtual! This hackathon is really a workshop, so we're going to be referring to it as a `workshopathon` from here on out.
 
 This repo contains the basic backend and frontend components of the Student Dashboard application you will be building. By the end of this workshopathon, you should have a working web application that displays your own Canvas data using the Canvas API.
 
