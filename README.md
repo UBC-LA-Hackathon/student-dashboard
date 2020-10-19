@@ -53,7 +53,7 @@ There are many volunteers here with lots of software development experience who 
 And if you're already comfortable with some of the technology we're using, please help your neighbours!
 
 ## 📅 Schedule
-### Saturday, October 24
+### Sunday, October 25th
 * 9:00am - Hackathon welcome and orientation - we'll give you an overview of the tasks and get you set up with this repository.
 * 9:20am - Start hacking! Solutions to each of the [Tasks](#-tasks) will be released at predetermined times.
 * 11:00am - Check-in.
