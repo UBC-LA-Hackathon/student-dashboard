@@ -48,9 +48,7 @@ After you've completed the heatmap, you can either add more [features to the hea
 ## 🤔 Ask For Help
 We don't expect you to come into the workshopathon with any prior knowledge. You may never have coded before - that's okay! You're here to learn, and we're here to help.
 
-There are many volunteers here with lots of software development experience who are happy to help.
-
-And if you're already comfortable with some of the technology we're using, please help your neighbours!
+Please connect to our Hackathon Zoom link (available from Canvas), where you can ask the volunteers for help. 
 
 ## 📅 Schedule
 ### Sunday, October 25th
