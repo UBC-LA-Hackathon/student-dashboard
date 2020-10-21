@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react'
 import * as d3 from 'd3'
 
-function Heatmap ({ timestamps }) {
+function Heatmap({ timestamps }) {
   const d3Ref = useRef(null)
 
   const width = 1200
@@ -82,6 +82,9 @@ function Heatmap ({ timestamps }) {
         .attr('width', cellSize)
         .attr('height', cellSize)
         .attr('fill', d => getColour(d.count))
+
+      const cleanup = () => svg.remove()
+      return cleanup
     }
   }, [timestamps])
 
