@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react'
 import * as d3 from 'd3'
 
-function Heatmap({ timestamps }) {
+function Heatmap ({ timestamps }) {
   const d3Ref = useRef(null)
 
   const width = 1200
