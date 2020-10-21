@@ -1,7 +1,7 @@
 ## Virutal Hackathon is happening Sunday, October 25th!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Welcome to the [7th UBC Learning Analytics hackathon](https://learninganalytics.ubc.ca/for-students/hackathons/). Although the spring 2020 hackathon was cancelled due to COVID-19, the fall 2020 hackathon has gone fully virtual! This hackathon is really a workshop, so we're going to be referring to it as a `workshopathon` from here on out.
@@ -169,6 +169,9 @@ And another big thank you to our volunteers and contributors.
     <td align="center"><a href="http://riacarmin.com/"><img src="https://avatars2.githubusercontent.com/u/5331992?v=4" width="100px;" alt=""/><br /><sub><b>Ria Nicole Carmin</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=AkimaLunar" title="Code">💻</a></td>
     <td align="center"><a href="https://shirleyyin.com"><img src="https://avatars0.githubusercontent.com/u/2703742?v=4" width="100px;" alt=""/><br /><sub><b>Shirley Yin</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=syin" title="Code">💻</a></td>
     <td align="center"><a href="http://qhou.github.io"><img src="https://avatars3.githubusercontent.com/u/17342319?v=4" width="100px;" alt=""/><br /><sub><b>Quinn Hou</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=qhou" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://carolinapinzon.com"><img src="https://avatars2.githubusercontent.com/u/8977776?v=4" width="100px;" alt=""/><br /><sub><b>Carolina Pinzón</b></sub></a><br /><a href="https://github.com/UBC-LA-Hackathon/student-dashboard/commits?author=caropinzonsilva" title="Code">💻</a></td>
   </tr>
 </table>
 
