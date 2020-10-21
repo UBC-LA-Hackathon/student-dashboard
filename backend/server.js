@@ -11,6 +11,8 @@ app.use(cors())
 app.get('/', (req, res) => res.send('Hello World!'))
 
 // Make API call to Canvas API here
+canvasAPI.getSelf()
+    .then(self => console.log(self))
 
 
 // Make endpoint for getSelf here
