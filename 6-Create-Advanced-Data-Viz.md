@@ -14,7 +14,7 @@ Good for you on making it this far! Since you have a lot of time remaining, try 
 
 ### Course Prerequisites Data
 * [data](https://files.workspace.ubc.ca/MyDevice/s/570/74488c9b-b723-4b34-bd4d-8f246c54f2eb): contains degree requirement data (co-reqs/pre-reqs, etc).
-* [dictionary](TODO: LINK): contains details about what each column of the data represents.
+* [dictionary](./degree-requirements-data-dictionary.md): contains details about what each column of the data represents.
 
 You can use [`readCSV.js`](./backend/readCSV.js) to read the CSVs into the server.
 
