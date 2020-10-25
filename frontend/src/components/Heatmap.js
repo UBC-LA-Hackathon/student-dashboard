@@ -82,6 +82,9 @@ function Heatmap ({ timestamps }) {
         .attr('width', cellSize)
         .attr('height', cellSize)
         .attr('fill', d => getColour(d.count))
+
+      const cleanup = () => svg.remove()
+      return cleanup
     }
   }, [timestamps])
 

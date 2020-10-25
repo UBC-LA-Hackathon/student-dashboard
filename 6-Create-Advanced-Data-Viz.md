@@ -9,12 +9,12 @@ Good for you on making it this far! Since you have a lot of time remaining, try 
 
 ## Give me data!
 ### Course Calendar Data
-* [data](https://files.workspace.ubc.ca/MyDevice/s/570/67306f48-3077-42d5-a0ed-fb5ad5fb10d2): contains information about all the courses offered at UBC from 2014-2019.
+* [data](https://drive.google.com/file/d/1iDTUJBfK_HF1yET7jz5cWxgTqDS6nRRl/view?usp=sharing): contains information about all the courses offered at UBC from 2014-2019.
 * [dictionary](./course-calendar-data-dictionary.md): contains details about what each column of the data represents.
 
 ### Course Prerequisites Data
-* [data](https://files.workspace.ubc.ca/MyDevice/s/570/74488c9b-b723-4b34-bd4d-8f246c54f2eb): contains degree requirement data (co-reqs/pre-reqs, etc).
-* [dictionary](TODO: LINK): contains details about what each column of the data represents.
+* [data](https://drive.google.com/file/d/1Ey3QdAvNUjhHzxK__VYOgg08XMIO1aab/view?usp=sharing): contains degree requirement data (co-reqs/pre-reqs, etc).
+* [dictionary](./degree-requirements-data-dictionary.md): contains details about what each column of the data represents.
 
 You can use [`readCSV.js`](./backend/readCSV.js) to read the CSVs into the server.
 
