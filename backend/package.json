@@ -12,7 +12,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "neat-csv": "^5.1.0",
-    "node-canvas-api": "^1.5.1",
+    "node-canvas-api": "^1.6.0",
     "nodemon": "^2.0.2"
   },
   "devDependencies": {
